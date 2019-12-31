@@ -1,0 +1,2579 @@
+<!DOCTYPE html>
+
+
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf8">
+    <link rel="icon" type="image/png" href="/static/img/favicon_cg.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130086074-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-130086074-1');
+    </script>
+
+    <title>
+    Introduction
+</title>
+    <script type="application/javascript" src="//biendata.com/static/js/jquery-1.11.3.min.895323ed2f72.js"></script>
+    <link rel="stylesheet" type="text/css" href="//biendata.com/static/bootstrap-3.3.5/css/bootstrap.min.5d5357cb3704.css"/>
+    <script type="application/javascript" src="//biendata.com/static/bootstrap-3.3.5/js/bootstrap.min.4becdc910462.js"></script>
+    <link rel="stylesheet" type="text/css" href="//biendata.com/static/css/re_css/style.ed5c3a7c05bd.css"/>
+
+    <link href="//biendata.com/static/css/controls.d8d0f6ad0c18.css" rel="stylesheet" type="text/css" media="screen,projection" />
+    <link href="//biendata.com/static/css/re_css/controls.9aa8f742cbd5.css" rel="stylesheet" type="text/css" media="screen,projection">
+    <script type="application/javascript" src="//biendata.com/static/js/login.eb5b5791474c.js"></script>
+    <script type="application/javascript" src="//biendata.com/static/js/form.654e665dc4bb.js"></script>
+    <link rel="stylesheet" type="text/css" href="//biendata.com/static/select2/select2.97ac964453bb.css"/>
+    <script type="application/javascript" src="//biendata.com/static/select2/select2.0f7be4996b04.js"></script>
+    <script type="application/javascript" src="//biendata.com/static/select2/select2.full.6bfe64a8f27d.js"></script>
+
+    <script src="//biendata.com/static/jquery-ui-1.11.4/jquery-ui.min.8746fb7e7b2a.js" type="application/javascript"> </script>
+    <link href="//biendata.com/static/jquery-ui-1.11.4/jquery-ui.min.7ba402c2d38d.css" rel="stylesheet" type="text/css" />
+    <link href="//biendata.com/static/css/re_css/common.4fb3224d17fa.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="//biendata.com/static/mdstyle/examples/css/style.c0a6de9cc368.css" />
+    <link rel="stylesheet" href="//biendata.com/static/mdstyle/css/editormd.c951c034d760.css" />
+    <script src="//biendata.com/static/mdstyle/editormd.min.88a379309da7.js"></script>
+    <link rel="stylesheet" href="//biendata.com/static/mdstyle/css/editormd.preview.344873d81a5d.css" />
+    <script src="//biendata.com/static/mdstyle/lib/marked.min.a2422d0c0eff.js"></script>
+    <script src="//biendata.com/static/mdstyle/lib/prettify.min.a6358bcc55c4.js"></script>
+    <script src="//biendata.com/static/mdstyle/lib/raphael.min.f299b262ff67.js"></script>
+    <script src="//biendata.com/static/mdstyle/lib/underscore.min.5ffd8c6721af.js"></script>
+    <script src="//biendata.com/static/mdstyle/lib/sequence-diagram.min.7105a1a907ac.js"></script>
+    <script src="//biendata.com/static/mdstyle/lib/flowchart.min.db8505be6fd4.js"></script>
+    <script src="//biendata.com/static/mdstyle/lib/jquery.flowchart.min.850185a9704c.js"></script>
+    <script src="//biendata.com/static/mdstyle/editormd.a47f5fa6a679.js"></script>
+
+    <script src="//biendata.com/static/mdstyle/languages/en.758374bdff88.js"></script>
+
+
+    <link href="//biendata.com/static/cropper/cropper.min.b5d8e751bcd9.css" rel="stylesheet">
+    <link href="//biendata.com/static/sitelogo/sitelogo.696dd9486b50.css" rel="stylesheet">
+    <script src="//biendata.com/static/cropper/cropper.min.51d68031ebfc.js"></script>
+    <script src="//biendata.com/static/sitelogo/sitelogo.effbfedabac5.js"></script>
+    <script src="//biendata.com/static/cropper/html2canvas.min.5330312b84e8.js"></script>
+
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <link rel="stylesheet" href="https://a.amap.com/jsapi_demos/static/resource/commonStyle.css">
+    <script type="text/javascript" src = 'https://webapi.amap.com/maps?v=1.4.5&key=86945e3b2e39ed7447d9fb813273c666'></script>
+    <script src="//biendata.com/static/js/jquery.cookie.d5528dde0006.js"></script>
+</head>
+
+<style>
+      *{padding: 0;margin:0;list-style: none;}
+      .dd_nav p{line-height: 100%!important;}
+      .dd_P_nav p{line-height: 100%!important;}
+      .box_nav{width: 1080px;margin:0 auto;}
+      .wrap_nav{min-width: 1080px;width: 100%}
+      .clear{clear: both;}
+      /*nav*/
+      .dd_nav{height: 60px;background: #333;position: fixed;top:0;z-index: 9999}
+      #logo_img{width: 136px;display: block;float: left;margin-top: 12px;cursor: pointer;}
+      .dd_nav_list{float: right;}
+      .dd_nav_list>li{float: left;margin-right: 33px;cursor: pointer;}
+      .dd_nav_list>li>a{text-decoration: none!important;line-height: 60px;color: #fff}
+      .dd_login{width: 60px;height: 34px;font-size: 14px;border:1px solid #00a2e8;box-sizing: border-box;color: #00a2e8;text-align: center;line-height: 34px;margin-right: 20px!important;border-radius: 3px;margin-top: 12px;}
+      .dd_sign_up{width: 60px;height: 34px;font-size: 14px;background: #00a2e8;text-align: center;line-height: 34px;margin-right: 0!important;color: #172636;border-radius: 3px;margin-top: 12px;}
+      .dd_user{line-height: 60px;color: #fff}
+      .dd_P_nav{display: none;}
+      /*登录*/
+      #sigin_modal.modal-dialog{width: 650px;margin: 100px auto;margin-top: 50px;}
+      #sigin_modal .modal-content{width: 650px;margin-top: 50px;}
+      #sigin_success .modal-dialog{width: 423px;}
+      #sigin_success .modal-content{width: 423px;}
+      #login_modal .modal-dialog{width: 416px;height: 386px;margin: 100px auto}
+      #login_modal .modal-content{width: 416px;height: 386px;}
+      #forget-password .modal-dialog{width: 416px;height: 460px;margin: 100px auto}
+      #forget-password .modal-content{width: 416px;height: 460px;}
+      #forget-password_success  .modal-dialog{width: 416px;height: 320px;margin: 100px auto}
+       #forget-password_success  .modal-content{width: 416px;height: 320px;}
+       #reset_pass .modal-dialog{width: 416px;margin: 100px auto}
+       #reset_pass .modal-content{width: 416px;}
+      .dd_close{width: 17px;height: 17px;border:none;background:transparent;float: right;font-size: 20px;color: #e5e5e5}
+      .dd_logo{width: 56px;margin:0 auto;display: block;}
+      .dd_login_word{margin-top: 30px;margin-bottom: 31px;font-size: 20px;color: #00a1e8;text-align: center;}
+      #id_username2{width: 260px;height: 32px;border:1px solid #e5e5e5;margin-bottom: 20px;margin-left: 63px;text-indent: 10px}
+      #id_password2{width: 260px;height: 32px;border:1px solid #e5e5e5;margin-left: 63px;text-indent: 10px}
+      .dd_re_me{font-size: 13px;color: #00a1e8;cursor: pointer;line-height: 100%!important;float: right;margin-right: 60px}
+      .rember_me{float: left;margin-left: 63px;}
+      .rember_me label{font-weight: normal;}
+      #login_btn{width: 260px;height: 32px;margin-left: 63px;margin-top: 7px;background: #00a1e8;border:none;color: #fff;border-radius: 3px;font-size: 13px;}
+      .status_word{font-size: 13px;color: red;display: none;text-align: center;}
+      .station_contain{min-height: 100%;margin-top: 60px;}
+      .dd_pass_intro{font-size: 12px;color: #999;margin-bottom: 30px;text-align: center;}
+      #id_email{width: 260px;height: 32px;border:1px solid #e5e5e5;border-radius: 3px;margin-left: 63px;text-indent: 10px}
+      :-moz-placeholder {color: #c6c6c6!important;font-size: 13px; opacity:1;}
+      ::-moz-placeholder {color: #c6c6c6!important;font-size: 13px;opacity:1; }
+      :-moz-placeholder {color: #c6c6c6!important;font-size: 13px;opacity:1; }
+      input:-ms-input-placeholder{color: #c6c6c6!important;font-size: 13px;opacity:1;}
+      input::-webkit-input-placeholder{color: #c6c6c6!important;font-size: 13px;opacity:1; }
+      .reg_email{color: #00a1e8;font-size: 13px;margin: 20px 0 20px 63px;cursor: pointer; }
+      #id_captcha_1{width: 130px;height: 32px;border:1px solid #e5e5e5;border-radius: 3px;text-indent: 10px;padding: 0;box-shadow: none;margin-bottom: 20px;}
+      .captcha-input{width: 130px;margin-left: 63px;}
+      .captcha{width: 100px;height: 32px;display: block;float: left;margin-left: 31px;cursor: pointer;}
+      .rep_word{font-size: 13px;color: #e60012;margin-left: 63px;display: none;margin-bottom: 20px;}
+      .rep_em_word{font-size: 13px;color: #e60012;margin-left: 63px;display: none;margin-top: 20px;margin-bottom: 20px;}
+      #sub_re_pas_btn{width: 260px;height: 32px;border:none;background: #00a1e8;color: #fff;font-size: 13px;margin-left: 63px;border-radius: 3px}
+      .dd_ms_w{width: 278px;font-size: 16px;text-align: center;margin-left: 63px;color: #333;line-height: 140%;}
+      .return_login{width: 260px;height: 32px;background: #00a1e8;font-size: 13px;color: white;border:none;border-radius: 3px;margin-left: 63px;margin-top: 30px;}
+      .return_home{width: 260px;height: 32px;background: #00a1e8;font-size: 13px;color: white;border:none;border-radius: 3px;margin-left: 63px;margin-top: 30px;}
+      #pass_word{width: 260px;height: 32px;background: transparent;border:1px solid #e5e5e5;text-indent: 10px;margin-bottom: 20px;margin-left: 63px;border-radius: 3px}
+      #pass_word_do{width: 260px;height: 32px;background: transparent;border:1px solid #e5e5e5;text-indent: 10px;margin-bottom: 20px;margin-left: 63px;border-radius: 3px}
+      #reset_cap{width: 130px;height: 32px;border:1px solid #e5e5e5;border-radius: 3px;text-indent: 10px;padding: 0;box-shadow: none;margin-bottom: 20px;}
+      #reset_cap_img{width: 100px;height: 32px;float: left;margin-left: 31px;display: block;cursor: pointer;}
+      .error_style{color: #e60012;margin-left: 63px;margin-bottom: 20px;font-size: 13px;display: none;}
+      #reset_pass_btn{width: 260px;height: 32px;background: #00a1e8;font-size: 13px;color: white;border:none;border-radius: 3px;margin-left: 63px}
+      #sub_login{display: none;}
+      #cked{margin: 0;position: relative;top: 0}
+      .rember_me label{font-size: 13px;}
+      .user_intro{padding-bottom: 19px}
+      .sigin_wrap{margin-left: 70px;}
+      .sigin_intro_div{width: 91px;float: left;font-size: 13px;color: #333;padding-top: 10px;margin-right: 22px;text-align: right}
+      .sigin_intro_input1{width: 260px;height: 32px;display: block;float: left;border: 1px solid #e5e5e5;border-radius: 4px;background: #fff;text-indent: 10px}
+      .sigin_error{font-size: 13px;color: #e60012;margin-left: 20px;float: left;padding-top: 10px;display: none;width: 155px;}
+      .sigin_select{width: 90px;height: 32px;border: 1px solid #e5e5e5;border-radius: 4px;background: #fff;color: #999;display: block;float: left;}
+      .sigin_intro_input2{width: 160px;height: 32px;display: block;float: left;border: 1px solid #e5e5e5;border-radius: 4px;background: #fff;margin-left: 10px;text-indent: 10px}
+      .sigin_intro_margin{width: 100%;height: 20px;}
+      .sigin_intro_input3{width: 130px;height: 32px;display: block;float: left;border: 1px solid #e5e5e5;border-radius: 4px;background: #fff;text-indent: 10px}
+      .sigin_verify_img{width: 100px;height: 32px;border:1px solid #e5e5e5;float: left;margin-left: 30px;cursor: pointer;}
+      .sigin_verify_img>img{width: 100%;height: 100%;display: block;}
+      .sigin_intro_input4{width: 100px;height: 32px;border-radius: 4px;float: left;display: block;border: 1px solid #00a1e8;color: #00a1e8;background: #fff;margin-left: 30px;}
+      .sigin_radio{float: left;}
+      .sigin_radio>input{display: block;float: left;margin-top: 0;margin-right: 5px;}
+      .sigin_radio>div{float: left;font-size: 13px;color: #333}
+       .sigin_radio>div>span{color: #00a1e8}
+       .sigin_submit{float: left;}
+       .sigin_submit>button{width: 260px;height: 32px;background: #00a1e8;color: #fff;border: none}
+       .sigin_intro_contain{font-size: 11px;color: red;margin-left: 113px;margin-top: 7px;margin-bottom: 7px;width: 272px;line-height: 16px;}
+       .sigin_intro_contain_2{font-size: 12px;color: #ccc;margin-left: 113px;margin-top: 10px;margin-bottom: 10px;width: 268px;}
+       #joinus .modal-dialog{
+          width: 500px;
+          margin-top: 200px;
+        }
+        .joinus_intro{
+          width: 91px;
+          float: left;
+          font-size: 14px;
+          color: #333;
+          margin-right: 10px;
+          height: 32px;
+          line-height: 32px;
+          margin-top: 15px;
+          margin-left: 40px;
+        }
+        .org_input input{
+          width: 300px;
+          height: 32px;
+          border: 1px solid #e5e5e5;
+          outline: none;
+          background: #fff;
+          border-radius: 3px;
+          text-indent: 10px;
+          font-size: 13px;
+          color: #333;
+          display: block;
+          float: left;
+          margin-top: 15px;
+        }
+        .phone_ipt input{
+          width: 300px;
+          height: 32px;
+          border: 1px solid #e5e5e5;
+          outline: none;
+          background: #fff;
+          border-radius: 3px;
+          text-indent: 10px;
+          font-size: 13px;
+          color: #333;
+          display: block;
+          float: left;
+          margin-top: 15px;
+        }
+        .email_ipt input{
+          width: 300px;
+          height: 32px;
+          border: 1px solid #e5e5e5;
+          outline: none;
+          background: #fff;
+          border-radius: 3px;
+          text-indent: 10px;
+          font-size: 13px;
+          color: #333;
+          display: block;
+          float: left;
+          margin-top: 15px;
+        }
+        .intro_ipt textarea{
+          width: 300px;
+          height: 150px;
+          border: 1px solid #e5e5e5;
+          outline: none;
+          background: #fff;
+          border-radius: 3px;
+          padding:10px;
+          font-size: 13px;
+          color: #333;
+          display: block;
+          float: left;
+          margin-top: 15px;
+          resize:none;
+        }
+        .joinus_btn_wrap{
+          width: 100%;
+          text-align: center;
+        }
+        .joinus_btn{
+          width: 200px;
+          height: 32px;
+          border: none;
+          background: rgb(16,89,170);
+          color:#fff;
+          font-size: 13px;
+          margin-top: 20px;
+          outline: none;
+          border-radius: 3px
+        }
+        .error_wrap{
+          text-align: center;
+          color:red;
+          font-size: 13px;
+          margin-top: 20px;
+          display: none;
+        }
+      /* 移动端*/
+       @media screen and (max-width: 750px){
+          .dd_P_nav{display: block;}
+          .dd_nav{display: none;}
+          .dd_P_wrap{width: 100%;}
+          .dd_P_nav{height: 1.33rem;background: #1c2335;position: fixed;z-index: 9999999}
+          .dd_P_nav>li{float: left}
+          .dd_P_nav>.dd_P_langchange>a{font-size: 0.37rem;color: #fff;line-height: 1.33rem;}
+          .dd_P_langchange{margin-left: 0.43rem;}
+          .dd_P_logo{width: 3.12rem;margin-left: 2.39rem;margin-top: 0.22rem;}
+          .dd_P_logo>img{display: block;width: 100%}
+          .dd_P_btn{margin-left: 2rem;}
+          .dd_P_btn>button{background: transparent;border:none;color: #fff;width: 1.33rem;height: 1.33rem;}
+          .dd_P_btn>button>i{font-size: 0.44rem;}
+          .dd_p_nav_list{width:3rem;margin-left: 7rem;height: 2rem;background: #1C2335;position: relative;z-index: 9999;display: none;top: 1.33rem}
+          .dd_p_nav_list>li{line-height: 1rem;color: #fff;text-align: center;}
+          #login_modal .modal-dialog{width: 100%;margin: 0!important}
+          #login_modal .modal-content{width: 100%;}
+          #forget-password .modal-dialog{width: 100%;margin: 0!important}
+          #forget-password .modal-content{width: 100%;}
+          #forget-password_success  .modal-dialog{width: 100%;margin: 0!important}
+           #forget-password_success  .modal-content{width: 100%}
+           #reset_pass .modal-dialog{width: 100%;margin: 0!important}
+           #reset_pass .modal-content{width: 100%;}
+           .dd_P_langchange{width: 0.63rem;height: 0.56rem;overflow: hidden;margin-top: 0.35rem;}
+
+            .dd_P_langchange img{width: 100%}
+
+      }
+</style>
+<body>
+<!--  -->
+<div class="wrap_nav dd_nav">
+    <div class="box_nav">
+      <a href="https://www.biendata.com">
+        <img src="//biendata.com/static/img/re_img/site-logo_cg.56b5c4fdae38.png" id="logo_img" onclick="location.href=`/`"/>
+      </a>
+        <ul class="dd_nav_list">
+                <li>
+
+                     <a href='javascript:this.document.form_en.submit();' style="cursor: pointer;"><sup style="font-size: 15px;color:#00a2e8">En</sup></a><span style="transform: scale(2,2);display: inline-block;color: #00a2e8;margin: 0 2px;">/</span><a href='javascript:this.document.form_zh.submit();' style="cursor: pointer;"><sub style="font-size: 15px;">中</sub></a>
+
+                </li>
+                <li>
+                    <a href="#joinus" data-toggle="modal">Host a Competition</a>
+                </li>
+                <li>
+                    <a href='/models/?language=L&public=p&type=L'>Models</a>
+                </li>
+                <li>
+
+                    <a href='/forum'>Forum</a>
+
+                </li>
+
+
+                <li class="dd_login" data-toggle="modal" data-target="#login_modal">Login</li>
+                <li class="dd_sign_up" data-toggle="modal" data-target="#sigin_modal">Sign Up</li>
+                 <!-- <li class="dd_sign_up" onclick="location.href='/user/register-phone/'">Sign Up</li> -->
+
+
+        </ul>
+
+        <div class="clear"></div>
+        <div style="display: none;">
+
+                <form name='form_zh' action="/i18n/setlang/" method="post">
+                    <input type='hidden' name='csrfmiddlewaretoken' value='xUfMs0upYAvBJAmcoTvAlGMZ1Cul6i3K' />
+                    <input name="language" type="hidden" value="zh-hans"/>
+                </form>
+
+        </div>
+    </div>
+</div>
+<!-- 移动端 -->
+<div class="dd_P_wrap dd_P_nav">
+    <ul class="dd_P_nav">
+        <li class="dd_P_langchange">
+
+            <a href='javascript:this.document.form_zh.submit();'>
+              <img src="//biendata.com/static/img/re_img/lang_zh_en.64e05d126c80.png" alt="">
+            </a>
+
+        </li>
+        <li class="dd_P_logo">
+            <img src="//biendata.com/static/img/re_img/site-logo_cg.56b5c4fdae38.png" onclick="location.href=`/`"/>
+        </li>
+        <li class="dd_P_btn">
+            <button><i class="fa fa-user"></i></button>
+        </li>
+    </ul>
+    <ul class="dd_p_nav_list">
+
+
+                <li class="dd_p_login" data-toggle="modal" data-target="#login_modal">Login</li>
+                <li class="dd_p_sign_up" data-toggle="modal" data-target="#sigin_modal">Sign Up</li>
+                <!-- <li class="dd_p_sign_up" onclick="location.href='/user/register-phone/'">Sign Up</li> -->
+
+
+    </ul>
+</div>
+
+<div class="station_contain">
+
+<style>
+    ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover, ul.nav-tabs li.active a:focus{color: #00A0E9}
+    ul.nav-tabs.nav>li>a:hover{color: #00A0E9}
+    ul.nav-tabs li a span{background-color: #00A0E9}
+    .cpt_intro{display: none;}
+    .cpt_navList{display: none;}
+    .content_dd{display: none;}
+    #myTabContent p{line-height: 200%!important;}
+    #myScrollspy li a{cursor: pointer!important;}
+    .banner{overflow: inherit!important;}
+    #show_data_modal .modal-dialog,#show_data_modal .modal-content{margin-top: 200px!important}
+    #show_course_data_modal .modal-dialog,#show_course_data_modal .modal-content{margin-top: 200px!important}
+
+    @media screen and (max-width: 750px){
+        body{background: #fff!important}
+        .index{display: none;}
+        .wrap{width: 100%;}
+        .clear{clear: both;}
+        p{line-height: 100%!important;}
+        .cpt_intro{padding:0.4rem 0.39rem;}
+        .cpt_intro>img{display: block;width: 3.01rem;height:2rem;border:1px solid #ebebeb;float: left;}
+        .cpt_intro_con{float: left;margin-left: 0.33rem;width: 5.87rem;}
+        .c_in_con_title{font-size: 0.48rem;color: #333333;font-weight: bold;height: 1.1rem;margin-bottom: 0.4rem;line-height: 120%!important;}
+        .c_in_con_con>p:nth-child(1){color: #02a0e7;font-size: 0.48rem;float: left;width: 100px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+        .c_in_con_con>p:nth-child(2){font-size: 0.32rem;color: #333;float: right;margin-top: 0.08rem;}
+        .c_in_con_con>p:nth-child(2)>span{color: #02a0e7}
+        .cpt_rang{margin-top: 0.53rem;border-top: 1px solid #ebebeb;}
+        .rang_con{float: left;width: 5.87rem;}
+        .rang_word{width: 100%;margin-top:0.32rem;}
+        .rang_word>p:nth-child(1){float: left;font-size: 0.32rem;color: #333}
+        .rang_word>p:nth-child(2){float: right;font-size: 0.32rem;color: #333}
+        .rang_wrap{width: 100%;height: 0.12rem;background:#e5e5e5;border-radius: 5px;margin-top: 0.21rem;}
+        .rang_size{height: 100%;background: #00a3e8;border-radius: 5px}
+        .sponsor{font-size: 0.32rem;margin-top: 0.4rem;}
+        .cpt_join{float: left}
+        .cpt_join>button{border:none;background: #00a1e9;width: 2rem;height: 0.8rem;outline: none;border-radius: 3px;margin-left: 1.33rem;;margin-top: 0.5rem;color: #fff}
+        .dd_nav_wrap>li{width: 5rem;border-bottom: 3px solid transparent;text-align: center;color: #333;float: left;height: 1.35rem;line-height: 1.35rem;font-size: 0.4rem;font-weight: 570}
+        .cpt_navList{border-top: 0.32rem solid #f2f2f2}
+        .nav_contain{padding-top: 0.45rem;}
+        .nav_contain>li{float: left;width: 2.48rem;height: 0.45rem;border-right: 1px solid #ebebeb;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;margin-bottom: 0.4rem;text-align: center;}
+        .nav_contain>li:nth-child(4n){border-right: none}
+        .nav_contain>li>a{color: #323232}
+        .content_dd{width: 100%;}
+        .cpt_intro{display: block;}
+        .cpt_navList{display: block;}
+        .content_dd{display: block;border-top: 0.32rem solid #f2f2f2;padding: 0.83rem 0.41rem;min-height: 6.5rem;overflow: hidden;}
+        .content_dd img{width: 100%!important;}
+        .content_dd p{line-height: 0.64rem!important;font-size: 0.37rem;}
+    }
+
+</style>
+<div class='index min-wrapper' style="background-color: rgb(238, 238, 238);">
+    <div class="row">
+
+        <div style="position: relative;">
+
+
+
+                    <img src="//biendata.com/media/d3325ccd-795d-4614-a2d2-01703c0c8411_官网二级页面banner-云从计数.jpg" alt="" style="width: 100%;height: auto">
+                     <div class="row banner wrapper" style="position: absolute;top: 0;left: 50%;margin-left: -600px!important">
+
+
+
+
+
+                <div class="col-md-9 col-sm-9 col-xs-8 competition-info pt50" style="margin-left: 21%;">
+
+                        <div class="row header" style= >
+
+                                <span>Cloudwalk Technology</span> •
+
+
+                                <span>¥100,000</span> •
+
+
+                                <span>380 teams</span> •
+
+                            <span>1026 participants</span>
+
+                        </div>
+
+                        <div class="row title pt10" style="color: #fff">
+                            2018 Cloudwalk Headcount
+                        </div>
+
+
+
+                    <div class="row pt15">
+                        <div id="comp-header-stat">
+                            <div id="comp-progress">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-info" id="comp-going" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div id="comp-header-start" style="color:#fff">
+                                2018-09-15
+                            </div>
+
+
+
+                             <div id="comp-milestone-end" style="color: #fff">
+
+                                    Final Submissions
+
+                            </div>
+
+
+
+                            <div id="comp-header-end" style="color: #fff">
+                                2019-01-29
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 当前位置 -->
+        <div class="wrapper" style="padding: 15px 10px;font-size: 15px;">
+            <img src="//biendata.com/static/img/re_img/home-1.f28a4e49daa8.png" alt="" style="width: 12px;margin: -3px 3px 0 0;">
+            <a href="/"><span style="color: #4A4A4A">Home</span></a>
+            <span>&nbsp;&nbsp;>&nbsp;</span>
+            <a href="/competition/"><span style="color: #4A4A4A">Competitions</span></a>
+            <span>&nbsp;&nbsp;>&nbsp;</span>
+            <span></span>
+        </div>
+
+        <div class="wrapper" style="padding: 0 10px;margin-bottom: 40px;">
+            <div class="row">
+                <div class="col-xs-2 p0" id="myScrollspy" style="width: 17.8%">
+                    <ul class="nav nav-tabs nav-stacked" style="width:100%; margin-top:0px">
+
+                            <li><span>Information</span></li>
+
+                            <li id="intro" class="active"><a href="/competition/cloudcup2018/"><span></span>Introduction</a></li>
+                            <li id="rules"><a href="/competition/cloudcup2018/rules/"><span></span>Rules</a></li>
+
+                            <li id="data"><a><span></span>Data</a></li>
+
+
+                                <li id="prize"><a href="/competition/cloudcup2018/prize/"><span></span>Prize &amp; Timeline</a></li>
+
+                                <li id="evaluation"><a href="/competition/cloudcup2018/evaluation/"><span></span>Evaluation</a></li>
+
+
+
+                <li id="disbord"><a href="/forum/index_category/50"><span></span>Discussion Board</a></li>
+                <li id="models_board"><a href="/models/index_category/50"><span></span>Models</a></li>
+
+
+
+
+
+                <li><span>Submission</span></li>
+
+
+
+
+                        <li id="make-submission"><a href="/competition/cloudcup2018/make-submission/"><span></span>Make a submission</a></li>
+
+
+
+
+                                    <li id="final-submission"><a href="/competition/cloudcup2018/final-submission/"><span></span>Make a final submission</a></li>
+
+
+
+                            <li id="my-submission"><a href="/competition/cloudcup2018/my-submission/"><span></span>My submissions</a></li>
+
+
+
+                            <li><span>Others</span></li>
+
+                            <li id="my_team"><a href="/competition/cloudcup2018/team/my_team/"><span></span>My Team</a></li>
+
+
+
+                                    <li id="leaderboard"><a href="/competition/cloudcup2018/leaderboard/"><span></span>Leaderboard</a></li>
+
+
+
+
+                                <li id="final-leaderboard"><a href="/competition/cloudcup2018/final-leaderboard/"><span></span>Final Leaderboard</a></li>
+
+
+
+
+
+
+                                <li id="winners"><a href="/competition/cloudcup2018/winners/"><span></span>Winners list</a></li>
+
+
+
+                            <li><span>&nbsp;</span></li>
+
+
+                    </ul>
+                </div>
+
+                <div class="col-xs-10" style="background-color: #fff;padding: 50px;min-height: 800px;width: 74.6%;margin-left:3.8%;margin-bottom:60px;padding-top: 30px;">
+                    <!--<div class="col-md-9">-->
+                    <div id="myTabContent" class="tab-content">
+
+
+
+
+	<div class="competition-detail">
+
+        <h2><span style="color:#ff0000"><strong><span style="font-size:20px">Update 2019/1/27</span></strong></span></h2>
+
+<p><span style="font-size:14px">1. You can download the test set at the&nbsp;&nbsp;&#39;data&#39; page (yuncong_test_set.zip)</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px">2. Each team can upload no more than 3 times before 2019/1/28 23:59 (UTC time). No score will be returned. The final leaderboard for test set phase will be released on Feb 5. Please note that not all photos in the test set will be scored.&nbsp;</span></p>
+
+<p>&nbsp;</p>
+
+<h2><span style="color:#ff0000"><strong><span style="font-size:20px">Update 2018/11/12</span></strong></span></h2>
+
+<p><span style="font-size:14px">1. fixed bug in the evaluation program.</span></p>
+
+<p><span style="font-size:14px">2. if you have made&nbsp;any&nbsp;submission before, please DO NOT re-submit, we will re-evaluate all existed submission in the next 1-2 weeks.</span></p>
+
+<p>&nbsp;</p>
+
+<h2><strong><span style="font-size:20px">Update 2018/11/2 </span></strong></h2>
+
+<h2>&nbsp;</h2>
+
+<h2><span style="font-size:14px">We have set an upper limit for the number of predictions. Please submit results within 400,000 headcounts.</span></h2>
+
+<h2>&nbsp;</h2>
+
+<h2><span style="font-size:20px"><strong>Update 2018/10/18</strong></span></h2>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px">We replace the evaluation algorithm due to its speed issue. Please accept our apologies and find more information below:</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px">1, we use a new evaluation metric because the previous one occupied too much computational time and resources. The new metric is Precision-recall. Please find more details on the <a href="https://biendata.com/competition/cloudcup2018/evaluation/">evaluation&nbsp;page</a>.</span></p>
+
+<p>&nbsp;</p>
+
+<p>2, If you have made&nbsp;any&nbsp;submission before, please DO NOT re-submit, we will re-evaluate all existed submission in the next 1-2 weeks.</p>
+
+<p>&nbsp;</p>
+
+<p>3, the deadline of the competition is now on Jan 18, 2019.</p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px">Biendata</span></p>
+
+<h2>&nbsp;</h2>
+
+<h2><span style="font-size:20px"><strong>Background</strong></span></h2>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px">With the continuous expansion and prosperity of urban commercial districts, more and more people are shopping, catering, finding leisure and entertainment in the business district. Behind the bustling business district is a huge hidden danger. In the event of an emergency, all types of risks will be amplified in crowd district. In recent years, many crowded and trampling accidents occurred worldwide have fired the alarm for the management of urban business districts.</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px">Cloudwalk Technology has been incubating from the Chongqing Institute of Green and Intelligent Technology, Chinese Academy of Sciences in 2015. Cloudwalk has also helped draft and develop national standard on face recognition. Its technology application covers many industries, such as banking, security, and aviation.</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px">In 2018, National Development and Reform Commission (NDRC) entrusted CloudWalk, alongside with Beijing Zhongdun under the First Research Institute of the Ministry of Public Security, for the construction of the key program of National AI Project, the Industrialization and Application of High Accuracy Face Recognition System.</span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<h2><span style="font-size:20px"><strong>Task</strong></span></h2>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px">When we want to calculate how many people in a very crowded scene, we naturally calculate the number of people based on the visible part of the body, and the visible part is mainly the head area. This drove us to detect head counting rather than the entire human-based to solve crowd counting problem. The contest invites participants to design algorithms, mainly for the detection of human heads in complex scenes, by indicating the specific position (x, y, w, h) of each person&#39;s head rectangle. In which, x represents the coordinate on the x axis, and y is the coordinate on the y axis, w is the width of the face rectangle, and h is the length of the face rectangle.</span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<h2><span style="font-size:20px"><strong>Discussion Board</strong></span></h2>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px">If you have any questions, please ask it in post in the discussion webpage, or send an email to _support@biendata.com. _</span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+    </div>
+
+
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- 移动端 -->
+<div class="cpt_intro">
+     <img src="//biendata.com/media/96c99146-8c8d-47fd-b0ea-1b73fbf0a5f3_云从计数网站首页卡片logo.jpg">
+     <div class="cpt_intro_con">
+
+
+                <p class="c_in_con_title">2018 Cloudwalk Headcount</p>
+
+                <div class="c_in_con_con">
+                    <p>¥100,000 </p>
+                    <p>
+
+                            <span>380 teams</span>
+
+                    </p>
+                    <div class="clear"></div>
+                </div>
+
+
+     </div>
+     <div class="clear"></div>
+
+     <div class="cpt_rang">
+            <div class="rang_con">
+                <div class="rang_word">
+
+                        <p>start</p>
+                        <p>Final Submissions</p>
+
+                    <div class="clear"></div>
+                </div>
+                <div class="rang_wrap">
+                    <div class="rang_size"></div>
+                </div>
+                <div class="rang_word">
+                    <p>2018-09-15</p>
+                    <p>2019-01-29</p>
+                    <div class="clear"></div>
+                </div>
+                <p class="sponsor">
+
+                    Sponsor：Cloudwalk Technology
+
+                </p>
+            </div>
+
+               <div class="cpt_join">
+                    <button onclick="location.href=`/competition/cloudcup2018/rules/`"> Join Now</button>
+                </div>
+
+
+            <div class="clear"></div>
+
+     </div>
+     <div class="clear"></div>
+
+</div>
+
+<div class="cpt_navList">
+
+    <ul class="dd_nav_wrap">
+        <li style="border-bottom: 3px solid #00a1e8;color: #00a1e8">Information</li>
+        <!-- <li>Submission</li> -->
+        <li>Others</li>
+        <div class="clear"></div>
+    </ul>
+
+     <ul class="nav_contain">
+
+
+                    <li class="lo_index"><a href="/competition/cloudcup2018/">Introduction</a></li>
+                    <li class="lo_rules"><a href="/competition/cloudcup2018/rules/">Rules</a></li>
+                    <li class="lo_data"><a>Data</a></li>
+
+                        <li id="prize"><a href="/competition/cloudcup2018/prize/">Prize &amp; Timeline</a></li>
+
+                        <li id="evaluation"><a href="/competition/cloudcup2018/evaluation/">Evaluation</a></li>
+
+
+                    <!-- <li><a href="https://biendata.com/forum/index_category/50">Discussion Board</a></li> -->
+
+
+
+
+            <div class="clear"></div>
+      </ul>
+
+<!--       <ul class="nav_contain" style="display: none;">
+
+
+
+
+                        <li><a href="/competition/cloudcup2018/make-submission/">Make a submission</a></li>
+
+
+                        <li><a href="/competition/cloudcup2018/final-submission/">Make a final submission</a></li>
+
+                        <li><a href="/competition/cloudcup2018/my-submission/">My submissions</a></li>
+
+
+            <div class="clear"></div>
+      </ul>  -->
+
+
+      <ul class="nav_contain" style="display: none;">
+
+                <li class="la_myteam"><a href="/competition/cloudcup2018/team/my_team/">My Team</a></li>
+
+                    <li class="la_leaderboard"><a href="/competition/cloudcup2018/leaderboard/">Leaderboard</a></li>
+
+
+
+                        <li class="la_final_leaderboard"><a href="/competition/cloudcup2018/final-leaderboard/">Final Leaderboard</a></li>
+
+
+
+
+                    <li class="la_winners"><a href="/competition/cloudcup2018/winners/">Winners list</a></li>
+
+
+        <div class="clear"></div>
+      </ul>
+
+    <div class="clear"></div>
+</div>
+
+<div class="content_dd">
+
+</div>
+
+<div class="modal fade" id="show_data_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Biendata</h4>
+            </div>
+            <div class="modal-body">Please read and accept the competition rules before viewing the data.
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">
+
+                    <a style="color: #fff;text-decoration: none" id="rule_btn">Rules</a>
+
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+
+<div class="modal fade" id="show_course_data_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Biendata</h4>
+            </div>
+            <div class="modal-body">仅向被邀请人开放数据</div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+
+
+    <script>
+        if(window.location.href.indexOf('cloudcup2018/')!=-1){
+                var arr = new Array()
+                arr = window.location.href.split("?")[0].split('cloudcup2018/');
+                var link = arr[1]
+                if(link == '') {
+                    $('#myScrollspy>ul>li').removeClass('active');
+                    $('#intro').addClass('active');
+                } else if (link.indexOf("team") == 0) {
+                    $('#myScrollspy>ul>li').removeClass('active');
+                    $('#my_team').addClass('active');
+                } else if (link.indexOf("leaderboard") == 0) {
+                    $('#myScrollspy>ul>li').removeClass('active');
+                    $('#leaderboard').addClass('active');
+                } else if(link.indexOf("kdd_map") == 0){
+                     $('#myScrollspy>ul>li').removeClass('active');
+                    $('#kdd_map').addClass('active');
+                }else if(link.indexOf("ranking_last10") == 0){
+                      $('#myScrollspy>ul>li').removeClass('active');
+                    $('#ranking_10').addClass('active');
+                }else if(link.indexOf("ranking_2nd") == 0){
+                      $('#myScrollspy>ul>li').removeClass('active');
+                    $('#ranking_2nd').addClass('active');
+                }else {
+                    $('#myScrollspy>ul>li').removeClass('active');
+                    console.log(link)
+                    $('#'+link.replace('/','')).addClass('active');
+                }
+
+        }else if(window.location.href.indexOf('forum')!=-1){
+                 $('#myScrollspy>ul>li').removeClass('active');
+                $('#disbord').addClass('active');
+        }else if(window.location.href.indexOf("kdd_2018_submit")!=-1){
+            $('#myScrollspy>ul>li').removeClass('active');
+                $('#make-submission').addClass('active');
+
+        }else if(window.location.href.indexOf('models')!=-1){
+            $('#myScrollspy>ul>li').removeClass('active');
+            $('#models_board').addClass('active');
+        }
+
+
+        $(function(){
+            var final_ratio = 0.9;
+            var st = 1536969600;
+            var final = 1548553080;
+            var ed = 1548720000;
+            var now = 1565344913;
+
+            var ratio = 0;
+            if(now<st){
+                ratio = 0;
+            }else if (now<=ed){
+                ratio = (now-st)/(ed-st)
+            } else {
+                ratio = 1
+            }
+
+            $("#comp-going").css("width", ratio*100 +"%");
+            $(".rang_size").css("width", ratio*100 +"%");
+        });
+
+
+        $("input[name=accept]").prev().css("paddingBottom","20px")
+    </script>
+
+    <script>
+       (function(win) {
+            var doc = win.document;
+            var docEl = doc.documentElement;
+            var tid=null;
+
+            function refreshRem() {
+                var width = docEl.getBoundingClientRect().width;
+                if (width > 540) { // 最大宽度
+                        width = 540;
+                }
+                var rem = width / 10; // 将屏幕宽度分成10份， 1份为1rem
+                docEl.style.fontSize = rem + 'px';
+                ///rem用font-size:75px来进行换算
+            }
+
+            win.addEventListener('resize', function() {
+                clearTimeout(tid);
+                tid = setTimeout(refreshRem, 1);
+            }, false);
+            win.addEventListener('pageshow', function(e) {
+                if (e.persisted) {
+                        clearTimeout(tid);
+                        tid = setTimeout(refreshRem, 1);
+                }
+            }, false);
+
+            refreshRem();
+
+        })(window);
+    </script>
+
+    <script>
+        $(".dd_nav_wrap>li").bind("click",function (){
+            var indexs=$(this).index()
+            $(".nav_contain").css("display","none")
+             $(".dd_nav_wrap>li").css("borderBottom","3px solid transparent").css("color","")
+            $(".dd_nav_wrap>li").eq(indexs).css("borderBottom","3px solid #00a1e8").css("color",'#00a1e8')
+            $(".nav_contain").eq(indexs).fadeIn()
+        })
+
+        $(".content_dd").html($("#myTabContent").html())
+
+        if(window.location.href.indexOf('cloudcup2018/')!=-1){
+                var arr_1 = new Array()
+                arr_1 = location.href.split('cloudcup2018/');
+                var link_1 = arr_1[1].split("/")[0]
+                $(".nav_contain>li>a").each(function (i,e) {
+                    if(link_1==(e.innerText.toLowerCase())){
+                        e.style.color="#00a1e9"
+                    }else if(link_1==""){
+                        if(e.innerText=="Introduction"||e.innerText=="简介"){
+                             e.style.color="#00a1e8"
+                        }
+                    }
+                })
+                var link_2=arr_1[1]
+                console.log(location.href,'=======',link_2)
+                function tab_show_2(argument) {
+                    $(".dd_nav_wrap>li").css("borderBottom","3px solid transparent").css("color","")
+                     $(".dd_nav_wrap>li").eq(1).css("borderBottom","3px solid #00a1e8").css("color",'#00a1e8')
+                    $(".nav_contain").css("display","none")
+                    $(".nav_contain").eq(1).fadeIn()
+                }
+
+                if(link_2.indexOf("my_team")!=-1){
+                     tab_show_2()
+                    $(".la_myteam>a").css("color","#00a1e8")
+
+                }else if(link_2.indexOf("ranking_list")!=-1){
+                     tab_show_2()
+                    $(".la_ranking_list>a").css("color","#00a1e8")
+
+                }else if(link_2.indexOf("winners")!=-1){
+                     tab_show_2()
+                    $(".la_winners>a").css("color","#00a1e8")
+
+                }else if(link_2.indexOf("practice_ranking")!=-1){
+                     tab_show_2()
+                    $(".la_practice_ranking>a").css("color","#00a1e8")
+
+                }else if(link_2.indexOf("leaderboard")!=-1){
+                     tab_show_2()
+                    $(".la_leaderboard>a").css("color","#00a1e8")
+
+                }else if(link_2.indexOf("sohu_final")!=-1){
+                     tab_show_2()
+                    $(".la_sohu_final>a").css("color","#00a1e8")
+
+                }else if(link_2.indexOf("rules")!=-1){
+                    $(".lo_rules>a").css("color","#00a1e8")
+
+                }else if(link_2.indexOf("data")!=-1){
+                    $(".lo_data>a").css("color","#00a1e8")
+
+                }
+                 if(link_2.indexOf("final-leaderboard")!=-1){
+                     tab_show_2()
+                      $(".la_leaderboard>a").css("color","")
+                    $(".la_final_leaderboard>a").css("color","#00a1e8")
+
+                }
+
+          }
+
+          function byte_cup_2018(argument) {
+              let h=parseInt($("#byte_cup_banner").css("height"))
+              let h_n=(h-200)/2
+              $("#byte_cup_logo").css("top",h_n)
+          }
+          byte_cup_2018()
+          $(window).resize(function (argument) {
+              byte_cup_2018()
+          })
+
+        $("#data").unbind("click").bind("click",function (argument) {
+
+           $("#login_modal").modal("show")
+
+        })
+
+        $(".lo_data").unbind("click").bind("click",function (argument) {
+
+           $("#login_modal").modal("show")
+
+        })
+
+
+
+
+
+
+        $("#make-submission").unbind("click").bind("click",function (event) {
+            event.preventDefault();
+            $("#login_modal").modal("show")
+        })
+        $("#final-submission").unbind("click").bind("click",function (event) {
+            event.preventDefault();
+            $("#login_modal").modal("show")
+        })
+        $("#my-submission").unbind("click").bind("click",function (event) {
+            event.preventDefault();
+            $("#login_modal").modal("show")
+        })
+        $("#my_team").unbind("click").bind("click",function (event) {
+            event.preventDefault();
+            $("#login_modal").modal("show")
+        })
+        $(".la_myteam").unbind("click").bind("click",function (event) {
+            event.preventDefault();
+            $("#login_modal").modal("show")
+        })
+
+
+
+        if(location.search.split("?source=")[1]){
+             let source_url = location.search.split("?source=")[1].split("&")[0]
+                if(source_url){
+                    $("#myScrollspy>ul>li>a").each(function (i,e) {
+                        let href_str = $(e).attr("href")+"?source="+source_url
+                        if($(e).attr("href")){
+                            $(e).attr("href",href_str)
+                        }
+                    })
+                    $(".rules_btn").each(function (i,e) {
+                        $(e).attr("href",$(e).attr("href")+"?source="+source_url)
+                    })
+                }
+        }
+
+    </script>
+
+</div>
+
+<ol class="breadcrumb text-center" style="z-index: 0; bottom: 0px; width: 100%;margin-top:0;background:#192337;height:60px;padding-top:20px;">
+
+        <li><a class="text-capitalize" href="/about/">About</a></li>
+        <li><a class="text-capitalize" href="/terms/">Terms</a></li>
+        <li><a class="text-capitalize" href="/privacy/">Privacy</a></li>
+        <li><a class="text-capitalize" href="/contact/">Contact</a></li>
+
+</ol>
+
+<!-- 登录 -->
+<div class="modal fade" id="login_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="border-bottom: none">
+                <button type="button" data-dismiss="modal" class="dd_close">
+                    <i class="fa fa-close"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                    <img src="//biendata.com/static/img/re_img/login_logo.ac7c9dcbb526.png" alt="" class="dd_logo">
+                    <div class="dd_login_word">Login</div>
+
+                    <div class="login_wrap">
+                            <form action="/user/login_test" method="post">
+                              <input type="hidden"  name="csrfmiddlewaretoken" value="xUfMs0upYAvBJAmcoTvAlGMZ1Cul6i3K">
+
+
+                                 <div class="user_intro">
+                                   <input type="text" name="username" placeholder="Username or Email" id="id_username2">
+                                   <input type="password" name="password" placeholder="password" id="id_password2">
+                                 </div>
+                                 <div class="rember_me">
+                                  <input type="checkbox" checked="checked" name="checked" id="cked">
+                                   <label for="cked">Remember Me</label>
+                                 </div>
+                                 <div class="dd_re_me" data-toggle="modal" data-target="#forget-password">Forgot password?</div>
+                                    <div class="clear"></div>
+
+
+                                 <input type="hidden" name="next" value="/competition/cloudcup2018/" class="next_utl">
+                                 <input type="submit" id="sub_login" >
+                            </form>
+                            <p class="status_word"></p>
+                            <button id="login_btn">Sign in</button>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 找回密码邮件 -->
+<div class="modal fade" id="forget-password" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="border-bottom: none">
+                <button type="button" data-dismiss="modal" class="dd_close">
+                    <i class="fa fa-close"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                    <img src="//biendata.com/static/img/re_img/login_logo.ac7c9dcbb526.png" alt="" class="dd_logo">
+                    <div class="dd_login_word">Find your password</div>
+                    <div class="dd_pass_intro">Please enter your registration email to reset your password.</div>
+                    <div class="dd_pass_con">
+
+                    </div>
+                    <div class="rep_word"></div>
+                    <button id="sub_re_pas_btn" disabled="disabled">Send email</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 找回密码邮件成功 -->
+<div class="modal fade" id="forget-password_success" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="border-bottom: none">
+                <button type="button" data-dismiss="modal" class="dd_close">
+                    <i class="fa fa-close"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                    <img src="//biendata.com/static/img/re_img/login_logo.ac7c9dcbb526.png" alt="" class="dd_logo">
+                    <div class="dd_login_word">Find your password</div>
+                    <div class="dd_ms_w">Please enter your registration email to reset your password.</div>
+                    <button class="return_login">Login</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 重置密码 -->
+<div class="modal fade" id="reset_pass" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="border-bottom: none">
+                <button type="button" data-dismiss="modal" class="dd_close">
+                    <i class="fa fa-close"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                    <img src="//biendata.com/static/img/re_img/login_logo.ac7c9dcbb526.png" alt="" class="dd_logo">
+                    <div class="dd_login_word">Reset Password</div>
+                    <input type="password" placeholder="Password"     id="pass_word">
+                    <div class="error_style" id="reset_pass_err">Your password must have at least 7 characters</div>
+                    <input type="password" placeholder="Confirm password" id="pass_word_do">
+                    <div class="error_style" id="reset_pass_do_err">Passwords don't match</div>
+
+                    <div class="clear"></div>
+                    <div class="error_style" id="reset_cap_err">Wrong verification code</div>
+                    <button id="reset_pass_btn" disabled="disabled">Reset</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 注册 -->
+<div class="modal fade" id="sigin_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="border-bottom: none">
+                <button type="button" data-dismiss="modal" class="dd_close">
+                    <i class="fa fa-close"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                    <img src="//biendata.com/static/img/re_img/login_logo.ac7c9dcbb526.png" alt="" class="dd_logo">
+                    <div class="dd_login_word">Welcome to Biendata</div>
+
+                      <div class="sigin_wrap">
+                        <!-- user -->
+                        <div class="sigin_intro_div">User name</div>
+                        <input type="text" class="sigin_intro_input1" id="username_id" readonly onfocus="this.removeAttribute('readonly');">
+                        <div class="sigin_error" id="username_err">Please enter your unique user name</div>
+                        <div class="clear"></div>
+                        <div class="sigin_intro_margin"></div>
+                        <!-- phone -->
+                        <div class="sigin_intro_div">Phone number</div>
+                        <select name="" class="sigin_select">
+
+                            <option title="86" value="86" data-subtext="86">China (+86)</option>
+          <option title="1" value="1" data-subtext="1">US (+1)</option>
+                            <option title="1" value="1" data-subtext="1">Canada (+1)</option>
+                            <option title="7" value="7" data-subtext="7">Kazakhstan (+7)</option>
+                            <option title="7" value="7" data-subtext="7">Russia (+7)</option>
+                            <option title="20" value="20" data-subtext="20">Egypt (+20)</option>
+                            <option title="27" value="27" data-subtext="27">South Africa (+27)</option>
+                            <option title="30" value="30" data-subtext="30">Greece (+30)</option>
+                            <option title="31" value="31" data-subtext="31">Netherlands (+31)</option>
+                            <option title="32" value="32" data-subtext="32">Belgium (+32)</option>
+                            <option title="33" value="33" data-subtext="33">France (+33)</option>
+                            <option title="34" value="34" data-subtext="34">Spain (+34)</option>
+                            <option title="36" value="36" data-subtext="36">Hungary (+36)</option>
+                            <option title="39" value="39" data-subtext="39">Italy (+39)</option>
+                            <option title="40" value="40" data-subtext="40">Romania (+40)</option>
+                            <option title="41" value="41" data-subtext="41">Switzerland (+41)</option>
+                            <option title="43" value="43" data-subtext="43">Austria (+43)</option>
+                            <option title="44" value="44" data-subtext="44">UK (+44)</option>
+                            <option title="45" value="45" data-subtext="45">Denmark (+45)</option>
+                            <option title="46" value="46" data-subtext="46">Sweden (+46)</option>
+                            <option title="47" value="47" data-subtext="47">Norway (+47)</option>
+                            <option title="48" value="48" data-subtext="48">Poland (+48)</option>
+                            <option title="49" value="49" data-subtext="49">Germany (+49)</option>
+                            <option title="51" value="51" data-subtext="51">Peru (+51)</option>
+                            <option title="52" value="52" data-subtext="52">Mexico (+52)</option>
+                            <option title="53" value="53" data-subtext="53">Cuba (+53)</option>
+                            <option title="54" value="54" data-subtext="54">Argentina (+54)</option>
+                            <option title="55" value="55" data-subtext="55">Brazil (+55)</option>
+                            <option title="56" value="56" data-subtext="56">Chile (+56)</option>
+                            <option title="57" value="57" data-subtext="57">Colombia (+57)</option>
+                            <option title="58" value="58" data-subtext="58">Venezuela (+58)</option>
+                            <option title="60" value="60" data-subtext="60">Malaysia (+60)</option>
+                            <option title="61" value="61" data-subtext="61">Australia (+61)</option>
+                            <option title="62" value="62" data-subtext="62">Indonesia (+62)</option>
+                            <option title="63" value="63" data-subtext="63">Philippines (+63)</option>
+                            <option title="64" value="64" data-subtext="64">New Zealand (+64)</option>
+                            <option title="65" value="65" data-subtext="65">Singapore (+65)</option>
+                            <option title="66" value="66" data-subtext="66">Thailand (+66)</option>
+                            <option title="81" value="81" data-subtext="81">Japan (+81)</option>
+                            <option title="82" value="82" data-subtext="82">Korea (+82)</option>
+                            <option title="84" value="84" data-subtext="84">Vietnam (+84)</option>
+                            <option title="90" value="90" data-subtext="90">Turkey (+90)</option>
+                            <option title="91" value="91" data-subtext="91">India (+91)</option>
+                            <option title="92" value="92" data-subtext="92">Pakistan (+92)</option>
+                            <option title="93" value="93" data-subtext="93">Afghanistan (+93)</option>
+                            <option title="94" value="94" data-subtext="94">Sri Lanka (+94)</option>
+                            <option title="95" value="95" data-subtext="95">Myanmar (+95)</option>
+                            <option title="98" value="98" data-subtext="98">Iran (+98)</option>
+                            <option title="211" value="211" data-subtext="211">South Sudan (+211)</option>
+                            <option title="212" value="212" data-subtext="212">Morocco (+212)</option>
+                            <option title="213" value="213" data-subtext="213">Algeria (+213)</option>
+                            <option title="216" value="216" data-subtext="216">Tunisia (+216)</option>
+                            <option title="218" value="218" data-subtext="218">Libya (+218)</option>
+                            <option title="220" value="220" data-subtext="220">Gambia (+220)</option>
+                            <option title="221" value="221" data-subtext="221">Senegal (+221)</option>
+                            <option title="222" value="222" data-subtext="222">Mauritania (+222)</option>
+                            <option title="223" value="223" data-subtext="223">Mali (+223)</option>
+                            <option title="224" value="224" data-subtext="224">Guinea (+224)</option>
+                            <option title="225" value="225" data-subtext="225">Côte d'Ivoire (+225)</option>
+                            <option title="226" value="226" data-subtext="226">Burkina Faso (+226)</option>
+                            <option title="227" value="227" data-subtext="227">Niger (+227)</option>
+                            <option title="228" value="228" data-subtext="228">Togo (+228)</option>
+                            <option title="229" value="229" data-subtext="229">Benin (+229)</option>
+                            <option title="230" value="230" data-subtext="230">Mauritius (+230)</option>
+                            <option title="231" value="231" data-subtext="231">Liberia (+231)</option>
+                            <option title="232" value="232" data-subtext="232">Sierra Leone (+232)</option>
+                            <option title="233" value="233" data-subtext="233">Ghana (+233)</option>
+                            <option title="234" value="234" data-subtext="234">Nigeria (+234)</option>
+                            <option title="235" value="235" data-subtext="235">Chad (+235)</option>
+                            <option title="236" value="236" data-subtext="236">Central African (+236)</option>
+                            <option title="237" value="237" data-subtext="237">Cameroon (+237)</option>
+                            <option title="238" value="238" data-subtext="238">Cape Verde (+238)</option>
+                            <option title="239" value="239" data-subtext="239">Sao Tome (+239)</option>
+                            <option title="240" value="240" data-subtext="240">Equatorial Guinea (+240)</option>
+                            <option title="241" value="241" data-subtext="241">Gabon (+241)</option>
+                            <option title="242" value="242" data-subtext="242">Congo (+242)</option>
+                            <option title="243" value="243" data-subtext="243">Congo (+243)</option>
+                            <option title="244" value="244" data-subtext="244">Angola (+244)</option>
+                            <option title="245" value="245" data-subtext="245">Guinea (+245)</option>
+                            <option title="247" value="247" data-subtext="247">Ascension island (+247)</option>
+                            <option title="248" value="248" data-subtext="248">Seychelles (+248)</option>
+                            <option title="249" value="249" data-subtext="249">Sudan (+249)</option>
+                            <option title="250" value="250" data-subtext="250">Rwanda (+250)</option>
+                            <option title="251" value="251" data-subtext="251">Ethiopia (+251)</option>
+                            <option title="252" value="252" data-subtext="252">Somalia (+252)</option>
+                            <option title="253" value="253" data-subtext="253">Djibouti (+253)</option>
+                            <option title="254" value="254" data-subtext="254">Kenya (+254)</option>
+                            <option title="255" value="255" data-subtext="255">Tanzania (+255)</option>
+                            <option title="256" value="256" data-subtext="256">Uganda (+256)</option>
+                            <option title="257" value="257" data-subtext="257">Burundi (+257)</option>
+                            <option title="258" value="258" data-subtext="258">Mozambique (+258)</option>
+                            <option title="260" value="260" data-subtext="260">Zambia (+260)</option>
+                            <option title="261" value="261" data-subtext="261">Madagascar (+261)</option>
+                            <option title="262" value="262" data-subtext="262">Réunion (+262)</option>
+                            <option title="263" value="263" data-subtext="263">Zimbabwe (+263)</option>
+                            <option title="264" value="264" data-subtext="264">Namibia (+264)</option>
+                            <option title="265" value="265" data-subtext="265">Malawi (+265)</option>
+                            <option title="266" value="266" data-subtext="266">Lesotho (+266)</option>
+                            <option title="267" value="267" data-subtext="267">Botswana (+267)</option>
+                            <option title="268" value="268" data-subtext="268">Swaziland (+268)</option>
+                            <option title="269" value="269" data-subtext="269">Comoros (+269)</option>
+                            <option title="269" value="269" data-subtext="269">Mayotte (+269)</option>
+                            <option title="297" value="297" data-subtext="297">Aruba (+297)</option>
+                            <option title="298" value="298" data-subtext="298">Faroe Islands (+298)</option>
+                            <option title="299" value="299" data-subtext="299">Greenland (+299)</option>
+                            <option title="350" value="350" data-subtext="350">Gibraltar (+350)</option>
+                            <option title="351" value="351" data-subtext="351">Portugal (+351)</option>
+                            <option title="352" value="352" data-subtext="352">Luxembourg (+352)</option>
+                            <option title="353" value="353" data-subtext="353">Ireland (+353)</option>
+                            <option title="354" value="354" data-subtext="354">Iceland (+354)</option>
+                            <option title="355" value="355" data-subtext="355">Albania (+355)</option>
+                            <option title="356" value="356" data-subtext="356">Malta (+356)</option>
+                            <option title="357" value="357" data-subtext="357">Cyprus (+357)</option>
+                            <option title="358" value="358" data-subtext="358">Finland (+358)</option>
+                            <option title="359" value="359" data-subtext="359">Bulgaria (+359)</option>
+                            <option title="370" value="370" data-subtext="370">Lithuania (+370)</option>
+                            <option title="371" value="371" data-subtext="371">Latvia (+371)</option>
+                            <option title="372" value="372" data-subtext="372">Estonia (+372)</option>
+                            <option title="373" value="373" data-subtext="373">Moldova (+373)</option>
+                            <option title="374" value="374" data-subtext="374">Armenia (+374)</option>
+                            <option title="375" value="375" data-subtext="375">Belarus (+375)</option>
+                            <option title="376" value="376" data-subtext="376">Andorra (+376)</option>
+                            <option title="377" value="377" data-subtext="377">Monaco (+377)</option>
+                            <option title="378" value="378" data-subtext="378">San Marino (+378)</option>
+                            <option title="380" value="380" data-subtext="380">Ukraine (+380)</option>
+                            <option title="381" value="381" data-subtext="381">Serbia (+381)</option>
+                            <option title="382" value="382" data-subtext="382">Montenegro (+382)</option>
+                            <option title="385" value="385" data-subtext="385">Croatia (+385)</option>
+                            <option title="386" value="386" data-subtext="386">Slovenia (+386)</option>
+                            <option title="387" value="387" data-subtext="387">Bosnia (+387)</option>
+                            <option title="389" value="389" data-subtext="389">Macedonia (+389)</option>
+                            <option title="420" value="420" data-subtext="420">Czech Republic (+420)</option>
+                            <option title="421" value="421" data-subtext="421">Slovakia (+421)</option>
+                            <option title="423" value="423" data-subtext="423">Liechtenstein (+423)</option>
+                            <option title="501" value="501" data-subtext="501">Belize (+501)</option>
+                            <option title="502" value="502" data-subtext="502">Guatemala (+502)</option>
+                            <option title="503" value="503" data-subtext="503">El Salvador (+503)</option>
+                            <option title="504" value="504" data-subtext="504">Honduras (+504)</option>
+                            <option title="505" value="505" data-subtext="505">Nicaragua (+505)</option>
+                            <option title="506" value="506" data-subtext="506">Costa Rica (+506)</option>
+                            <option title="507" value="507" data-subtext="507">Panama (+507)</option>
+                            <option title="508" value="508" data-subtext="508">Saint Pierre (+508)</option>
+                            <option title="509" value="509" data-subtext="509">Haiti (+509)</option>
+                            <option title="590" value="590" data-subtext="590">Guadeloupe (+590)</option>
+                            <option title="590" value="590" data-subtext="590">Sint Maarten (+590)</option>
+                            <option title="591" value="591" data-subtext="591">Bolivia (+591)</option>
+                            <option title="592" value="592" data-subtext="592">Guyana (+592)</option>
+                            <option title="593" value="593" data-subtext="593">Ecuador (+593)</option>
+                            <option title="594" value="594" data-subtext="594">French Guiana (+594)</option>
+                            <option title="595" value="595" data-subtext="595">Paraguay (+595)</option>
+                            <option title="596" value="596" data-subtext="596">Martinique (+596)</option>
+                            <option title="597" value="597" data-subtext="597">Suriname (+597)</option>
+                            <option title="598" value="598" data-subtext="598">Uruguay (+598)</option>
+                            <option title="599" value="599" data-subtext="599">Bonaire (+599)</option>
+                            <option title="599" value="599" data-subtext="599">Curacao (+599)</option>
+                            <option title="670" value="670" data-subtext="670">Timor (+670)</option>
+                            <option title="673" value="673" data-subtext="673">Brunei Darussalam (+673)</option>
+                            <option title="675" value="675" data-subtext="675">Papua New Guinea (+675)</option>
+                            <option title="676" value="676" data-subtext="676">Tonga (+676)</option>
+                            <option title="677" value="677" data-subtext="677">Solomon Islands (+677)</option>
+                            <option title="678" value="678" data-subtext="678">Vanuatu (+678)</option>
+                            <option title="679" value="679" data-subtext="679">Fiji (+679)</option>
+                            <option title="680" value="680" data-subtext="680">Palau (+680)</option>
+                            <option title="682" value="682" data-subtext="682">Cook Islands (+682)</option>
+                            <option title="685" value="685" data-subtext="685">Samoa (+685)</option>
+                            <option title="686" value="686" data-subtext="686">Kiribati (+686)</option>
+                            <option title="687" value="687" data-subtext="687">New Caledonia (+687)</option>
+                            <option title="689" value="689" data-subtext="689">French Polynesia (+689)</option>
+                            <option title="852" value="852" data-subtext="852">Hong Kong (+852)</option>
+                            <option title="853" value="853" data-subtext="853">Macao (+853)</option>
+                            <option title="855" value="855" data-subtext="855">Cambodia (+855)</option>
+                            <option title="856" value="856" data-subtext="856">Lao (+856)</option>
+                            <option title="880" value="880" data-subtext="880">Bangladesh (+880)</option>
+                            <option title="886" value="886" data-subtext="886">Taiwan (+886)</option>
+                            <option title="930" value="930" data-subtext="930">Palestine (+930)</option>
+                            <option title="960" value="960" data-subtext="960">Maldives (+960)</option>
+                            <option title="961" value="961" data-subtext="961">Lebanon (+961)</option>
+                            <option title="962" value="962" data-subtext="962">Jordan (+962)</option>
+                            <option title="963" value="963" data-subtext="963">Syrian (+963)</option>
+                            <option title="964" value="964" data-subtext="964">Iraq (+964)</option>
+                            <option title="965" value="965" data-subtext="965">Kuwait (+965)</option>
+                            <option title="966" value="966" data-subtext="966">Saudi Arabia (+966)</option>
+                            <option title="967" value="967" data-subtext="967">Yemen (+967)</option>
+                            <option title="968" value="968" data-subtext="968">Oman (+968)</option>
+                            <option title="971" value="971" data-subtext="971">United Arab Emirates (+971)</option>
+                            <option title="972" value="972" data-subtext="972">Israel (+972)</option>
+                            <option title="973" value="973" data-subtext="973">Bahrain (+973)</option>
+                            <option title="974" value="974" data-subtext="974">Qatar (+974)</option>
+                            <option title="975" value="975" data-subtext="975">Bhutan (+975)</option>
+                            <option title="976" value="976" data-subtext="976">Mongolia (+976)</option>
+                            <option title="977" value="977" data-subtext="977">Nepal (+977)</option>
+                            <option title="992" value="992" data-subtext="992">Tajikistan (+992)</option>
+                            <option title="993" value="993" data-subtext="993">Turkmenistan (+993)</option>
+                            <option title="994" value="994" data-subtext="994">Azerbaijan (+994)</option>
+                            <option title="995" value="995" data-subtext="995">Georgia (+995)</option>
+                            <option title="996" value="996" data-subtext="996">Kyrgyzstan (+996)</option>
+                            <option title="998" value="998" data-subtext="998">Uzbekistan (+998)</option>
+                            <option title="1242" value="1242" data-subtext="1242">Bahamas (+1242)</option>
+                            <option title="1246" value="1246" data-subtext="1246">Barbados (+1246)</option>
+                            <option title="1264" value="1264" data-subtext="1264">Anguilla (+1264)</option>
+                            <option title="1268" value="1268" data-subtext="1268">Antigua (+1268)</option>
+                            <option title="1284" value="1284" data-subtext="1284">Virgin Islands (+1284)</option>
+                            <option title="1345" value="1345" data-subtext="1345">Cayman Islands (+1345)</option>
+                            <option title="1441" value="1441" data-subtext="1441">Bermuda (+1441)</option>
+                            <option title="1473" value="1473" data-subtext="1473">Grenada (+1473)</option>
+                            <option title="1649" value="1649" data-subtext="1649">Turks (+1649)</option>
+                            <option title="1664" value="1664" data-subtext="1664">Montserrat (+1664)</option>
+                            <option title="1671" value="1671" data-subtext="1671">Guam (+1671)</option>
+                            <option title="1684" value="1684" data-subtext="1684">American Samoa (+1684)</option>
+                            <option title="1758" value="1758" data-subtext="1758">Saint Lucia (+1758)</option>
+                            <option title="1767" value="1767" data-subtext="1767">Dominica (+1767)</option>
+                            <option title="1784" value="1784" data-subtext="1784">Saint Vincent (+1784)</option>
+                            <option title="1787" value="1787" data-subtext="1787">Puerto Rico (+1787)</option>
+                            <option title="1809" value="1809" data-subtext="1809">Dominican (+1809)</option>
+                            <option title="1868" value="1868" data-subtext="1868">Trinidad (+1868)</option>
+                            <option title="1869" value="1869" data-subtext="1869">Saint Kitts (+1869)</option>
+                            <option title="1876" value="1876" data-subtext="1876">Jamaica (+1876)</option>
+
+                        </select>
+                        <input type="text" class="sigin_intro_input2" id="phone_id">
+                        <div class="sigin_error" id="phone_err">Please enter your phone number to receive verification code</div>
+                        <div class="clear"></div>
+                        <div class="sigin_intro_margin"></div>
+                        <!-- verify img -->
+                         <div class="sigin_intro_div">CAPTCHA</div>
+                         <input type="text" class="sigin_intro_input3" id="verify_img_id">
+                         <div class="sigin_verify_img"></div>
+                         <div class="sigin_error" id="verify_img_err">CAPTCHA</div>
+                         <div class="clear"></div>
+                         <div class="sigin_intro_margin"></div>
+                         <!-- verify phone -->
+                          <div class="sigin_intro_div">Verification code sent to your phone</div>
+                          <input type="text" class="sigin_intro_input3" id="verify_phone_code" disabled="disabled" style="cursor: not-allowed;">
+                          <button class="sigin_intro_input4" id="verify_phone_id">Send</button>
+                          <div class="sigin_error" id="verify_phone_err">Please enter verification code</div>
+                          <div class="clear"></div>
+                          <div class="sigin_intro_margin"></div>
+                          <!-- email -->
+                        <div class="sigin_intro_div">E-mail</div>
+                        <input type="text" class="sigin_intro_input1" id="email_id">
+                        <div class="sigin_error" id="email_err">Please enter your e-mail</div>
+                        <div class="clear"></div>
+                        <div class="sigin_intro_margin"></div>
+                        <!-- name -->
+                        <div class="sigin_intro_div">Real name</div>
+                        <input type="text" class="sigin_intro_input1" id="name_id">
+                        <div class="sigin_error" id="name_err">Personal legal Identity Document with the Same Name is required for receiving any prize</div>
+                        <div class="clear"></div>
+                        <div class="sigin_intro_contain">your real name must contain both last name and first name, and match your personal legal Identity Document or you will be automatically disqualified from any award. The real name cannot be modified after this step.</div>
+                        <!-- from -->
+                        <div class="sigin_intro_div">Organization</div>
+                        <input type="text" class="sigin_intro_input1" id="form_id">
+                        <div class="sigin_error" id="form_err">Please enter your organization</div>
+                        <div class="clear"></div>
+                        <div class="sigin_intro_margin"></div>
+                        <!-- password -->
+                        <div class="sigin_intro_div">Password</div>
+                        <input type="password" class="sigin_intro_input1" id="password_id">
+                        <div class="sigin_error" id="password_err">Your password must have at least 7 characters</div>
+                        <div class="clear"></div>
+                        <div class="sigin_intro_margin"></div>
+                        <!-- verify password -->
+                        <div class="sigin_intro_div">Confirm password</div>
+                        <input type="password" class="sigin_intro_input1" id="ve_password_id">
+                        <div class="sigin_error" id="ve_password_err">Passwords don't match</div>
+                        <div class="clear"></div>
+                        <div class="sigin_intro_contain_2">Please send emails to support@biendata.com when you have any question.</div>
+                        <!-- user radio -->
+                      <!--   <div class="sigin_intro_div"></div>
+                        <div class="sigin_radio">
+                          <input type="checkbox">
+                          <div>同意<span>“用户须知”</span></div>
+                        </div>
+                        <div class="sigin_error" style="padding-top: 0" id="sigin_checkbox_id">请同意用户须知</div>
+                        <div class="clear"></div>
+                        <div class="sigin_intro_margin"></div> -->
+                        <!-- submit -->
+                        <div class="sigin_intro_div"></div>
+                        <input type="hidden" value="" class="next_url1">
+                        <div class="sigin_submit">
+                          <button id="sigin_btn">Register</button>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="sigin_intro_margin"></div>
+                      </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 注册成功 -->
+<div class="modal fade" id="sigin_success" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="border-bottom: none">
+                <button type="button" data-dismiss="modal" class="dd_close">
+                    <i class="fa fa-close"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                    <img src="//biendata.com/static/img/re_img/login_logo.ac7c9dcbb526.png" alt="" class="dd_logo">
+                    <div class="dd_login_word">Thank You</div>
+                    <div class="dd_ms_w">We have sent you an email with account activation link.</div>
+                    <button class="return_home" onclick="location.href='/'">Back to home</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="joinus" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Host a Competition</h4>
+            </div>
+            <div class="modal-body">
+              <div class="org_input">
+                <div class="joinus_intro">Organization </div>
+                <input type="text" placeholder="Please tell us where you are from.">
+                <div class="clear"></div>
+              </div>
+              <div class="email_ipt">
+                <div class="joinus_intro">E-mail</div>
+                <input type="text" placeholder="Please enter your email">
+                <div class="clear"></div>
+              </div>
+              <div class="intro_ipt">
+                <div class="joinus_intro">Description</div>
+                <textarea placeholder="Please describe the competition topic, dataset description and etc."></textarea>
+                <div class="clear"></div>
+              </div>
+              <div class="joinus_btn_wrap">
+                <button class="joinus_btn">Submit</button>
+                <div class="error_wrap"></div>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+
+     jQuery(function($){
+        //解决模态框背景色越来越深的问题
+        $(document).on('show.bs.modal', '.modal', function(event) {
+            $(this).appendTo($('body'));
+        }).on('shown.bs.modal', '.modal.in', function(event) {
+            setModalsAndBackdropsOrder();
+        }).on('hidden.bs.modal', '.modal', function(event) {
+            setModalsAndBackdropsOrder();
+        });
+
+        function setModalsAndBackdropsOrder() {
+            var modalZIndex = 1040;
+            $('.modal.in').each(function(index) {
+                var $modal = $(this);
+                modalZIndex++;
+                $modal.css('zIndex', modalZIndex);
+                $modal.next('.modal-backdrop.in').addClass('hidden').css('zIndex', modalZIndex - 1);
+            });
+            $('.modal.in:visible:last').focus().next('.modal-backdrop.in').removeClass('hidden');
+        }
+
+        //覆盖Modal.prototype的hideModal方法
+        $.fn.modal.Constructor.prototype.hideModal = function () {
+            var that = this
+            this.$element.hide()
+            this.backdrop(function () {
+                //判断当前页面所有的模态框都已经隐藏了之后body移除.modal-open，即body出现滚动条。
+                $('.modal.fade.in').length === 0 && that.$body.removeClass('modal-open')
+                that.resetAdjustments()
+                that.resetScrollbar()
+                that.$element.trigger('hidden.bs.modal')
+            })
+        }
+    });
+
+
+    // 登录
+    $(".login_wrap>form").attr("id","cart_form")
+    if( document.querySelector("#id_username2")){
+        document.querySelector("#id_username2").onkeydown=function (e) {
+            if(event.keyCode ==13){
+                e.preventDefault();
+                 e.stopPropagation();
+                 e.stopImmediatePropagation();
+                 $("#login_btn").click()
+              }
+
+            return;
+        }
+        document.querySelector("#id_password2").onkeydown=function (e) {
+            if(event.keyCode ==13){
+                e.preventDefault();
+                 e.stopPropagation();
+                 e.stopImmediatePropagation();
+                 $("#login_btn").click()
+              }
+            return;
+        }
+    }
+
+    var image_cap_key='',em_key=false,cap_key=false
+
+    var reg = new RegExp("^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$");
+
+
+
+    function statusSH(w) {
+         $(".status_word").stop().fadeIn().html(w)
+    }
+    $("#login_btn").bind("click",function (event) {
+        var userName=$("#id_username2").val()
+        var passWord=$("#id_password2").val()
+        console.log(userName,passWord)
+        if(userName==''){
+
+         statusSH("Please enter your user name")
+
+            $("#login_modal .modal-content").css("height","430px")
+            $("#login_modal .modal-dialog").css("height","430px")
+        }else if(passWord==""){
+
+             statusSH("Please enter your password")
+
+              $("#login_modal .modal-content").css("height","430px")
+            $("#login_modal .modal-dialog").css("height","430px")
+        }else{
+            statusSH(`<i class="fa fa-circle-o-notch fa-spin"></i>`)
+            $("#login_modal .modal-content").css("height","430px")
+            $("#login_modal .modal-dialog").css("height","430px")
+            $.ajax({
+                url:"/user/login_username_verify",
+                type:"post",
+                data:{
+                    "username":userName,
+                    "password":passWord,
+                    "csrfmiddlewaretoken":'xUfMs0upYAvBJAmcoTvAlGMZ1Cul6i3K'
+                },
+                success:function (data) {
+                    if(data.status=="success"){
+
+                          $("#sub_login").click()
+
+                    }else if(data.status=="1"){
+
+                         statusSH("Wrong password, please re-enter")
+
+
+                    }else if(data.status=="2"){
+
+                         statusSH("Your account has not been activated, please check your e-mail")
+
+
+
+                    }else if(data.status=="3"){
+
+                         statusSH("Your username or email address does not exist")
+
+
+                    }
+                }
+            })
+        }
+
+    })
+
+    // 移动端
+    var s=true
+    $(".dd_P_btn").bind("click",function(e) {
+      e.stopPropagation()
+      if(s){
+          $(".dd_p_nav_list").slideDown()
+          s=false
+      }else{
+          $(".dd_p_nav_list").slideUp()
+         s=true
+      }
+    })
+    document.addEventListener("click",()=>{
+      $(".dd_p_nav_list").slideUp()
+    },false);
+
+    $(".dd_p_login").bind("click",function (argument) {
+        $(".dd_p_nav_list").slideUp()
+    })
+
+    // 重置密码
+    var key1=false,key2=false,key3=false
+    $("#reset_pass label").remove()
+
+    $("#reset_pass #id_captcha_1").attr("id","reset_cap").attr("placeholder","enter the code")
+
+    $("#reset_pass .captcha").removeAttr("class").attr("id","reset_cap_img")
+    $("#reset_pass #id_captcha_0").attr("id","reset_key")
+    var reset_cap_key=$("#reset_key").val()
+    var loca_href=location.href
+    var reset_key=loca_href.split("?key=")[1]
+    console.log(reset_key)
+
+    if(reset_key!=undefined){
+      $("#reset_pass").modal("show")
+    }
+
+    function reset_captcha_change(argument) {
+        $.ajax({
+          url:"/captcha/refresh",
+          success:function (data) {
+           $("#reset_cap_img").attr("src",data.image_url)
+           key3=false
+           $("#reset_cap").val('')
+           reset_cap_key=data.key
+          }
+        })
+    }
+
+    function reset_captcha_rep(val,key) {
+      $.ajax({
+        url:"/ajax_val/?response="+val+"&hashkey="+key,
+        success:function (data) {
+            let status=data.status
+            if(status==1){
+              key3=true
+              $('#reset_cap_err').stop().fadeOut()
+              if(key1&&key2&&key3){
+                $("#reset_pass .modal-dialog").css("height",'')
+                $("#reset_pass .modal-content").css("height",'')
+                $("#reset_pass_btn").removeAttr("disabled")
+              }
+
+            }else if(status==0){
+              key3=false
+              $('#reset_cap_err').stop().fadeIn()
+              $("#reset_pass .modal-dialog").css("height",450)
+              $("#reset_pass .modal-content").css("height",450)
+              $("#reset_pass_btn").attr("disabled","disabled")
+
+            }
+        }
+      })
+    }
+
+
+    $("#reset_cap").unbind("keyup").bind("keyup",function (argument) {
+      let val=$(this).val()
+      reset_captcha_rep(val,reset_cap_key)
+    })
+
+    $("#reset_cap_img").click(function (argument) {
+      reset_captcha_change()
+    })
+
+    $("#pass_word").keyup(function (argument) {
+      let val=$(this).val().length
+        if(val<7){
+            $("#reset_pass_err").stop().fadeIn()
+              key1=false
+              $("#reset_pass .modal-dialog").css("height",450)
+              $("#reset_pass .modal-content").css("height",450)
+              $("#reset_pass_btn").attr("disabled","disabled")
+
+        }else{
+          key1=true
+            $("#reset_pass_err").stop().fadeOut()
+            if(key1&&key2&&key3){
+                $("#reset_pass .modal-dialog").css("height",'')
+                $("#reset_pass .modal-content").css("height",'')
+                $("#reset_pass_btn").removeAttr("disabled")
+              }
+        }
+        let is_repass = ($("#pass_word_do").val())!= "" ? true : false
+        let is_rapass_is = ($("#pass_word_do").val()) == ($(this).val()) ? true :false
+        if(is_repass){
+            if(!is_rapass_is){
+                key2=false
+                $("#reset_pass_do_err").stop().fadeIn()
+            }else{
+                key2=true
+                $("#reset_pass_do_err").stop().fadeOut()
+            }
+        }
+    })
+
+    $("#pass_word_do").keyup(function (argument) {
+        let val=$(this).val()
+        let oldVal=$("#pass_word").val()
+        if(val!=oldVal){
+            key2=false
+             $("#reset_pass_do_err").stop().fadeIn()
+             $("#reset_pass .modal-dialog").css("height",450)
+              $("#reset_pass .modal-content").css("height",450)
+              $("#reset_pass_btn").attr("disabled","disabled")
+
+        }else{
+             key2=true
+             $("#reset_pass_do_err").stop().fadeOut()
+             if(key1&&key2&&key3){
+                $("#reset_pass .modal-dialog").css("height",'')
+                $("#reset_pass .modal-content").css("height",'')
+                $("#reset_pass_btn").removeAttr("disabled")
+              }
+        }
+    })
+
+    $("#reset_pass_btn").click(function (argument) {
+        let password=$("#pass_word").val()
+        let pass_confirm=$("#pass_word_do").val()
+        let reset_cap_val=$("#reset_cap").val()
+         $("#reset_cap_err").stop().fadeIn()
+        $("#reset_cap_err").html(`<i class="fa fa-circle-o-notch fa-spin"></i>`).css("color","#96B97D")
+        if(key1&&key2&&key3){
+            $.ajax({
+              url:"/user/reset_password/",
+              type:"post",
+              data:{
+                "password":password,
+                "password_confirm":pass_confirm,
+                "key":reset_key,
+                "captcha":reset_cap_val,
+                "csrfmiddlewaretoken":'xUfMs0upYAvBJAmcoTvAlGMZ1Cul6i3K'
+              },
+              success:function (data) {
+                  console.log(data)
+                  if(data.status=="success"){
+
+                      $("#reset_cap_err").html(`Reset success`).css("color","#96B97D")
+
+                      setTimeout(function (argument) {
+                         $("#reset_cap_err").stop().fadeOut()
+                        $("#reset_pass").modal("hide")
+                        $("#login_modal").modal("show")
+                      },1000)
+
+                  }
+              },
+              error:function (argument) {
+
+                  $("#reset_cap_err").html(`Reset failure`).css("color","")
+
+              }
+            })
+        }
+    })
+
+    //修改密码邮件发送成功
+    $(".return_login").click(function (argument) {
+        $("#forget-password_success").modal('hide')
+        $("#forget-password").modal("hide")
+    })
+
+    // 找回密码
+    function captcha_change(argument) {
+      $.ajax({
+        url:"/captcha/refresh",
+        success:function (data) {
+         $(".captcha").attr("src",data.image_url)
+         image_cap_key=data.key
+        }
+      })
+    }
+
+   //验证码验证
+    function captcha_rep(val,key) {
+      $.ajax({
+        url:"/ajax_val/?response="+val+"&hashkey="+key,
+        success:function (data) {
+          let sta=data.status
+          if(sta==0){
+              cap_key=false
+
+              $(".rep_word").stop().fadeIn().html("Wrong verification code").css("color","")
+
+              $("#sub_re_pas_btn").attr('disabled',"disabled")
+          }else if(sta==1){
+              cap_key=true
+              $(".rep_word").stop().fadeOut()
+              if(em_key&&cap_key){
+                 $("#sub_re_pas_btn").removeAttr('disabled')
+              }
+          }
+
+        }
+      })
+    }
+
+
+    function captcha_fn(argument) {
+      $.ajax({
+            url:'/user/forget_password/',
+            type:"get",
+            success:function (data) {
+              console.log(data)
+                $(".dd_pass_con").html(data.form)
+                $("th").remove()
+
+                $("#id_email").attr("placeholder","E-mail")
+
+                $("#id_email").after(`<div class="reg_email"></div>`)
+
+                $("#id_captcha_1").attr("placeholder","Please enter the verification code")
+
+                $(".captcha").bind("click",function (argument) {
+                      captcha_change()
+                  })
+                $("#id_email").after(`<div class="rep_em_word"></div>`)
+                image_cap_key=$("#id_captcha_0").val()
+
+                $("#id_captcha_1").bind("keyup",function (argument) {
+                    let val=$(this).val()
+                    let key=image_cap_key
+                    captcha_rep(val,key)
+                })
+
+                 $("#id_email").keyup(function (argument) {
+                   let val=$(this).val()
+                   if(reg.test(val)){
+                        if(em_key&&cap_key){
+                             $("#sub_re_pas_btn").removeAttr('disabled')
+                          }
+                       $(".rep_em_word").stop().fadeOut()
+                       em_key=true
+                   }else{
+
+                      $(".rep_em_word").stop().fadeIn().html("Please enter the correct e-mail").css("color","")
+
+
+                        $("#sub_re_pas_btn").attr('disabled',"disabled")
+                        em_key=false
+                   }
+
+                 })
+
+                 $("#sub_re_pas_btn").click(function (argument) {
+
+                    $(".rep_word").stop().fadeIn().html(`<i class="fa fa-circle-o-notch fa-spin"></i>`)
+                    let emcode=$("#id_email").val()
+                    console.log(em_key&&cap_key)
+
+                    if(em_key&&cap_key){
+                        $.ajax({
+                            url:"/user/forget_password/",
+                            type:"post",
+                            data:{
+                               "csrfmiddlewaretoken":'xUfMs0upYAvBJAmcoTvAlGMZ1Cul6i3K',
+                               "email":emcode
+                            },
+                            success:function (data) {
+                               $(".rep_word").stop().fadeIn().html(``)
+                              if(data.status==1){
+
+                                  $(".rep_em_word").stop().fadeIn().html("Your email is not registered").css("color","")
+
+                                  image_cap_key=data.key
+                                  $(".captcha").attr("src",data.image_url)
+                                  $("#sub_re_pas_btn").attr('disabled',"disabled")
+                                  $("#id_captcha_1").val('')
+                                  cap_key=false
+                              }else if(data.status==2){
+                                  cap_key=false
+
+                                   $(".rep_word").stop().fadeIn().html("send E-mail error").css("color","")
+
+                                  image_cap_key=data.key
+                                  $(".captcha").attr("src",data.image_url)
+                                  $("#sub_re_pas_btn").attr('disabled',"disabled")
+                                  $("#id_captcha_1").val('')
+                              }else if(data.status="success"){
+                                    $("#forget-password_success").modal('show')
+                              }
+                            }
+                         })
+                     }
+
+                 })
+
+            }
+          })
+    }
+
+    $(".dd_re_me").click(function (argument) {
+        captcha_fn()
+    })
+
+    //注册
+
+    var sigin_verify_key='',sigin_is_submit=false,sigin_is_send_sms=false,sendSms=null,send_num='',sigin_is_verifyNum=false,sigin_is_email=false,is_name_=false,is_form_=false,sigin_is_password=false,sigin_is_vepassword=false,sigin_is_verifyimg=false
+
+
+    // 关闭modal
+
+    $('#sigin_modal').on('hide.bs.modal', function () {
+       sigin_is_submit=false
+       sigin_is_send_sms=false
+       sigin_is_verifyNum=false
+       sigin_is_email=false
+       is_name_=false
+       is_form_=false
+       sigin_is_password=false
+       sigin_is_vepassword=false
+       sigin_is_verifyimg=false
+
+       $("#username_err").stop().fadeOut()
+       $("#phone_err").stop().fadeOut()
+       $("#verify_img_err").stop().fadeOut()
+       $("#verify_phone_err").stop().fadeOut()
+       $("#email_err").stop().fadeOut()
+       $("#name_err").stop().fadeOut()
+       $("#form_err").stop().fadeOut()
+       $("#password_err").stop().fadeOut()
+       $("#ve_password_err").stop().fadeOut()
+    })
+
+
+    // 获取验证图片
+    function get_img_verify(argument) {
+      $.ajax({
+          url:"/captcha/refresh",
+          success:function (data) {
+            console.log()
+            $(".sigin_verify_img").html(`<img src="${data.image_url}" alt="" />`)
+            sigin_verify_key=data.key
+          }
+       })
+    }
+
+    // 更换 验证图片
+    $(".sigin_verify_img").unbind("click").bind("click",function (argument) {
+        get_img_verify()
+        sigin_is_verifyNum=false
+        $("#verify_img_err").stop().fadeIn()
+    })
+
+    $('#phone_id').unbind("focus").bind("focus",function (argument) {
+         $("#phone_err").stop().fadeOut()
+    })
+
+    $('#verify_img_id').unbind("focus").bind("focus",function (argument) {
+         $("#verify_img_err").stop().fadeOut()
+    })
+
+    //验证图片验证
+    function verify_img_fn(val,key) {
+      let phone_number = $("#phone_id").val()
+      let code = $(".sigin_select").val()
+      let img_code = $("#verify_img_id").val()
+      sigin_is_verifyimg=false
+      if(phone_number == ""){
+        $("#phone_err").stop().fadeIn()
+        sigin_is_send_sms = false
+      }
+      if(img_code == ""){
+        $("#verify_img_err").text("CAPTCHA")
+        $("#verify_img_err").stop().fadeIn()
+        sigin_is_verifyimg = false
+      }
+
+      if(img_code!=""&&phone_number!=""){
+          $.ajax({
+             url:"/ajax_val/?response="+val+"&hashkey="+key+"&phone_number="+phone_number+"&country_code="+code,
+             success:function (data) {
+                console.log(data)
+                if(data.status == 0){
+                    $("#verify_img_err").text("Wrong CAPTCHA")
+                    $("#verify_img_err").stop().fadeIn()
+                    sigin_is_verifyimg = false
+                }else if(data.status == 1){
+                    $("#verify_img_err").stop().fadeOut()
+                    sigin_is_verifyimg = true
+                }
+
+                if(data.phone == 1){
+                    $("#phone_err").stop().fadeOut()
+                    sigin_is_send_sms = true
+                }else if(data.phone == 2){
+                   $("#phone_err").text("Wrong phone number")
+                   $("#phone_err").stop().fadeIn()
+                    sigin_is_send_sms = false
+                }else if(data.phone == 3){
+                   $("#phone_err").text("Phone number already exists")
+                   $("#phone_err").stop().fadeIn()
+                   sigin_is_send_sms = false
+                }
+
+
+                if(data.phone == 1&&data.status == 1){
+                   send_sms_fn(phone_number,code)
+                }
+             }
+          })
+      }
+
+
+
+    }
+    // blur input
+    function sigin_blur_fn(obj) {
+          $(obj.ele).unbind("blur").bind("blur",function (argument) {
+            if(obj.number_input==1){sigin_is_submit=false}
+            if(obj.number_input==2){sigin_is_send_sms=false}
+            if(obj.number_input==4){sigin_is_email=false}
+            let val=$(this).val()
+            let obj_data={
+               "csrfmiddlewaretoken":'xUfMs0upYAvBJAmcoTvAlGMZ1Cul6i3K',
+            }
+            let obj_data_comfirm={}
+            if(obj.number_input==2){
+              obj_data_comfirm={"country_code":$(".sigin_select").val(),}
+            }
+            obj_data[obj.data_name]=val
+            let datas=$.extend(obj_data_comfirm, obj_data)
+            if(val!=""){
+              $.ajax({
+                url:obj.url,
+                type:"post",
+                data:datas,
+                success:function (data) {
+                  if(data.status=="success"){
+                    $(obj.err).stop().fadeOut()
+                    if(obj.number_input==1){sigin_is_submit=true}
+                    if(obj.number_input==2){sigin_is_send_sms=true}
+                    if(obj.number_input==4){sigin_is_email=true}
+                  }
+
+                  if(data.status==1){
+                    $(obj.err).text(obj.txtArr[1])
+                    $(obj.err).stop().fadeIn()
+                    if(obj.number_input==1){sigin_is_submit=false}
+                    if(obj.number_input==2){sigin_is_send_sms=false}
+                    if(obj.number_input==4){sigin_is_email=false}
+                  }
+                  if(data.status==2){
+                    $(obj.err).text(obj.txtArr[2])
+                    $(obj.err).stop().fadeIn()
+                    if(obj.number_input==1){sigin_is_submit=false}
+                    if(obj.number_input==2){sigin_is_send_sms=false}
+                    if(obj.number_input==4){sigin_is_email=false}
+                  }
+                  if(data.status==3){
+                    $(obj.err).text(obj.txtArr[3])
+                    $(obj.err).stop().fadeIn()
+                    if(obj.number_input==1){sigin_is_submit=false}
+                    if(obj.number_input==2){sigin_is_send_sms=false}
+                    if(obj.number_input==4){sigin_is_email=false}
+                  }
+                }
+              })
+            }else{
+              $(obj.err).text(obj.txtArr[0])
+              $(obj.err).stop().fadeIn()
+              if(obj.number_input==1){sigin_is_submit=false}
+              if(obj.number_input==2){sigin_is_send_sms=false}
+              if(obj.number_input==4){sigin_is_email=false}
+            }
+
+        })
+    }
+
+    if($.cookie("total")!=undefined&&$.cookie("total")!='NaN'&&$.cookie("total")!='null'){
+       timekeeping();
+     }else{
+       $("#verify_phone_id").removeAttr("disabled")
+        $("#verify_phone_id").css("cursor","cursor")
+       $("#verify_phone_id").html("Send")
+     }
+
+    function timekeeping(){
+        $("#verify_phone_id").attr("disabled","disabled")
+
+
+        sendSms=setInterval(function (data) {
+           send_num=$.cookie("total");
+           $("#verify_phone_id").html(send_num+"s")
+           send_num--;
+           if(send_num==0){
+             clearInterval(sendSms)
+             send_num=$.cookie("total",send_num, { expires: -1 });
+             $("#verify_phone_id").removeAttr("disabled")
+             $("#verify_phone_id").html("Send")
+             return
+           }else{
+             $.cookie("total",send_num);
+           }
+        },1000)
+     }
+
+    // 发送短信
+      function send_sms_fn(phone,code) {
+
+        $("#verify_phone_id").html(`<i class="fa fa-circle-o-notch fa-spin"></i>`)
+        $.ajax({
+          url:"/user/send-sms",
+          type:"post",
+          data:{
+
+            "csrfmiddlewaretoken":'xUfMs0upYAvBJAmcoTvAlGMZ1Cul6i3K',
+            "country_code":code,
+            "phone_number":phone,
+            "response":$("#verify_img_id").val(),
+            "hashkey":sigin_verify_key
+          },
+          success:function (data) {
+             $("#verify_phone_id").html('Send')
+
+
+           if(data.status == "error"){
+              get_img_verify()
+              $("#verify_img_id").val("")
+              sigin_is_verifyNum=false
+              $("#verify_img_err").text("Wrong CAPTCHA")
+              $("#verify_img_err").stop().fadeIn()
+            }else{
+              if(data.code!==0){
+                $("#verify_phone_err").stop().fadeIn()
+                if(data.code == 2){
+                    $("#verify_phone_err").text("Phone number error")
+                }
+              }else{
+                $.cookie("total",60);
+                $("#verify_phone_err").stop().fadeOut()
+                timekeeping()
+                $("#verify_phone_code").removeAttr("disabled")
+                 $("#verify_phone_code").css("cursor","default")
+              }
+            }
+          }
+        })
+      }
+
+
+    $(".dd_sign_up").unbind("click").bind("click",function (argument) {
+      $("#login_modal").modal("hide")
+       $.ajax({
+          url:"/user/register_test",
+          success:function (data) {
+            console.log()
+            $(".sigin_verify_img").html(`<img src="${data.image_url}" alt="" />`)
+            sigin_verify_key=data.key
+          }
+       })
+    })
+    sigin_blur_fn({
+      number_input:1,
+      ele:"#username_id",
+      url:"/user/verify_username/",
+      data_name:"username",
+      err:"#username_err",
+
+      txtArr:["Please enter your unique user name","Your username must be at least 3 and no more than 20 characters long","Must begin with a letter，only numbers, characters and underscore are allowed","Username already exists"]
+
+    })
+
+    sigin_blur_fn({
+      number_input:4,
+      ele:"#email_id",
+      url:"/user/verify_email/",
+      data_name:"email",
+      err:"#email_err",
+
+      txtArr:["Please enter your e-mail","","Wrong e-mail format","E-mail already exists"]
+
+    })
+
+    $("#verify_phone_id").unbind("click").bind("click",function (argument) {
+      let val  = $("#verify_img_id").val()
+      verify_img_fn(val,sigin_verify_key)
+
+    })
+
+    $("#password_id").unbind("keyup").bind("keyup",function (argument) {
+        let val=$(this).val()
+        sigin_is_password=false
+        if(val.length<7){
+            $("#password_err").text("Your password must have at least 7 characters")
+            $("#password_err").stop().fadeIn()
+            sigin_is_password=false
+        }else if(val.length>20){
+            $("#password_err").text("Your password must be no more than 20 characters long")
+            $("#password_err").stop().fadeIn()
+            sigin_is_password=false
+        }else{
+            $("#password_err").stop().fadeOut()
+            sigin_is_password=true
+        }
+        let ve_val =  $("#ve_password_id").val()
+        if(ve_val!=""){
+            if(val!=ve_val){
+                $("#ve_password_err").stop().fadeIn()
+            }else{
+                $("#ve_password_err").stop().fadeOut()
+            }
+        }
+
+    })
+
+    $("#ve_password_id").unbind("keyup").bind("keyup",function (argument) {
+        let val=$(this).val()
+        sigin_is_vepassword=false
+        if(val!=$("#password_id").val()){
+            $("#ve_password_err").stop().fadeIn()
+            sigin_is_vepassword=false
+        }else{
+            $("#ve_password_err").stop().fadeOut()
+            sigin_is_vepassword=true
+        }
+    })
+
+    $("#name_id").unbind("keyup").bind("keyup",function (argument) {
+       is_name_=false
+      let val=$(this).val()
+      if(val!=""){
+        $('#name_err').stop().fadeOut()
+        is_name_=true
+      }else{
+        $('#name_err').stop().fadeIn()
+        is_name_=false
+      }
+    })
+
+    $("#form_id").unbind("keyup").bind("keyup",function (argument) {
+      is_form_=false
+      let val=$(this).val()
+      if(val!=""){
+        $('#form_err').stop().fadeOut()
+        is_form_=true
+      }else{
+        $('#form_err').stop().fadeIn()
+        is_form_=false
+      }
+    })
+
+    $("#verify_phone_code").unbind("keyup").bind("keyup",function (argument) {
+      sigin_is_verifyNum=false
+      let val=$(this).val()
+      if(val!=""){
+        $('#verify_phone_err').stop().fadeOut()
+        sigin_is_verifyNum=true
+      }else{
+         $('#verify_phone_err').text("Please enter verification code")
+         $('#verify_phone_err').stop().fadeIn()
+        sigin_is_verifyNum=false
+      }
+    })
+
+    $("#sigin_btn").unbind("mouseup").bind("mouseup",function (argument) {
+      let err_Arr=[]
+      let is_sub_arr=[sigin_is_submit,sigin_is_send_sms,sigin_is_verifyimg,sigin_is_verifyNum,sigin_is_email,is_name_,is_form_,sigin_is_password,sigin_is_vepassword]
+      $(".sigin_error").each(function (i,e) {
+        err_Arr.push(e)
+      })
+
+      if(sigin_is_submit&&sigin_is_send_sms&&sigin_is_verifyimg&&sigin_is_verifyNum&&is_name_&&is_form_&&sigin_is_email&&sigin_is_password&&sigin_is_vepassword){
+          $("#sigin_btn").html(`<i class="fa fa-circle-o-notch fa-spin"></i>`)
+          var Form=new FormData()
+          Form.append("csrfmiddlewaretoken","xUfMs0upYAvBJAmcoTvAlGMZ1Cul6i3K")
+          Form.append("username",$("#username_id").val())
+          Form.append("phone_number",$("#phone_id").val())
+          Form.append("country_code",$(".sigin_select").val())
+          Form.append("sms_code",$("#verify_phone_code").val())
+          Form.append("email",$("#email_id").val())
+          Form.append("real_name",$("#name_id").val())
+          Form.append("organization",$("#form_id").val())
+          Form.append("password",$("#password_id").val())
+          Form.append("password_confirm",$("#ve_password_id").val())
+          if($(".next_url1").val()!=""){
+            Form.append("source",$(".next_url1").val())
+          }
+          $.ajax({
+            url:"/user/register_test/",
+            type:"post",
+            data:Form,
+            dataType:"text",
+            processData : false,
+            contentType : false,
+            success:function (data) {
+              $("#sigin_btn").html('Register')
+              $("#password_id").val("")
+              $("#ve_password_id").val("")
+              sigin_is_password=false
+              sigin_is_vepassword=false
+
+              var data=eval("("+data+")")
+              if(data.msg=="success"){
+                $("#sigin_success").modal("show")
+                $("#username_id").val("")
+                $("#phone_id").val("")
+                $(".sigin_select").val("")
+                $("#verify_phone_code").val("")
+                $("#email_id").val("")
+                $("#name_id").val("")
+                $("#form_id").val("")
+                $("#password_id").val("")
+                $("#ve_password_id").val("")
+                sigin_is_submit=false
+               sigin_is_send_sms=false
+               sigin_is_verifyNum=false
+               sigin_is_email=false
+               is_name_=false
+               is_form_=false
+               sigin_is_password=false
+               sigin_is_vepassword=false
+               sigin_is_verifyimg=false
+                $("#phone_err").stop().fadeOut()
+                 $("#verify_phone_err").stop().fadeOut()
+              }
+              if(data.msg=="phone"){
+                $("#phone_err").text("Phone number not verified")
+                $("#phone_err").stop().fadeIn()
+              }
+              if(data.msg=="country_code"){
+                $("#phone_err").text("Phone number not verified")
+                $("#phone_err").stop().fadeIn()
+              }
+              if(data.msg=="sms_code"){
+                $("#verify_phone_err").text("Wrong verification code")
+                $("#verify_phone_err").stop().fadeIn()
+              }
+
+            }
+          })
+      }else{
+          for(var i=0;i<is_sub_arr.length;i++){
+            if(is_sub_arr[i]){}else{
+                $("#"+err_Arr[i].getAttribute("id")).stop().fadeIn()
+            }
+          }
+      }
+
+
+
+    })
+
+    $(".dd_login").unbind("click").bind("click",function (argument) {
+      $("#sigin_modal").modal("hide")
+    })
+    if(location.search.split("?source=")[1]){
+        $(".next_utl").val(location.pathname+"?source="+location.search.split("?source=")[1].split("&")[0])
+        $(".next_url1").val(location.search.split("?source=")[1].split("&")[0])
+    }
+
+  function Clickloginbtn_Fn(ele,is_show,txt) {
+    if(is_show){
+      ele.css({
+        "opacity":".7",
+      }).html(` <i class="fa fa-circle-o-notch fa-spin"></i>`)
+    }else{
+      ele.css({
+        "opacity":"",
+      }).html(txt)
+    }
+  }
+
+  $(".joinus_btn").unbind("click").bind("click",function (argument) {
+    let org_val = $(".org_input>input").val()
+    let email_val = $(".email_ipt>input").val()
+    let intro_val = $(".intro_ipt>textarea").val()
+    let opacity_num = Number($(this).css("opacity"))
+    let is_going = opacity_num == 0.7 ? false : true
+    let _this = $(this)
+    let form_arr = []
+    let Timer = null
+
+    form_arr.push({
+      name:org_val,
+      intro:"organization"
+    })
+    form_arr.push({
+      name:email_val,
+      intro:" E-mail"
+    })
+    form_arr.push({
+      name:intro_val,
+      intro:"competition description"
+    })
+
+    let error_intro = ""
+    for(let i in form_arr){
+      if(form_arr[i].name == ""){
+        error_intro += "\""+form_arr[i].intro+"\" "
+      }
+    }
+    if(error_intro==""){
+      if(is_going){
+        $(".error_wrap").fadeOut(200)
+        $(".error_wrap").text("")
+        Clickloginbtn_Fn(_this,true,"Submit")
+        $.ajax({
+          url:"/host_a_competition/",
+          type:"post",
+          data:{
+            "organization":org_val,
+            "email":email_val,
+            "describe":intro_val,
+            "csrfmiddlewaretoken":"xUfMs0upYAvBJAmcoTvAlGMZ1Cul6i3K"
+          },
+          success:function (data) {
+            Clickloginbtn_Fn(_this,false,"Submit")
+            console.log(data)
+            if(data.status == 1){
+              $(".error_wrap").fadeIn(200)
+              $(".error_wrap").css("color","green")
+              $(".error_wrap").text("Successfully Submitted")
+              clearTimeout(Timer)
+              Timer = setTimeout(function (argument) {
+                $(".error_wrap").fadeOut(200)
+                $(".error_wrap").css("color","")
+                $(".error_wrap").text("")
+                $("#joinus").modal("hide")
+                $(".org_input>input").val("")
+                $(".phone_ipt>input").val("")
+                $(".email_ipt>input").val("")
+                $(".intro_ipt>textarea").val("")
+              },1000)
+            }
+          },
+          error:function (data) {
+            $(".error_wrap").fadeIn(200)
+            $(".error_wrap").text("Submit Failed")
+          }
+        })
+      }
+    }else{
+      $(".error_wrap").fadeIn(200)
+      $(".error_wrap").text("Please enter your "+error_intro)
+    }
+  })
+
+</script>
+<script>
+       (function(win) {
+            var doc = win.document;
+            var docEl = doc.documentElement;
+            var tid=null;
+
+            function refreshRem() {
+                var width = docEl.getBoundingClientRect().width;
+                if (width > 540) { // 最大宽度
+                        width = 540;
+                }
+                var rem = width / 10; // 将屏幕宽度分成10份， 1份为1rem
+                docEl.style.fontSize = rem + 'px';
+                ///rem用font-size:75px来进行换算
+            }
+
+            win.addEventListener('resize', function() {
+                clearTimeout(tid);
+                tid = setTimeout(refreshRem, 1);
+            }, false);
+            win.addEventListener('pageshow', function(e) {
+                if (e.persisted) {
+                        clearTimeout(tid);
+                        tid = setTimeout(refreshRem, 1);
+                }
+            }, false);
+
+            refreshRem();
+
+        })(window);
+    </script>
+
+</html>
+

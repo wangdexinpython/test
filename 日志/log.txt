@@ -1,0 +1,10 @@
+2019-08-17 10:58:36,448 - fox - DEBUG - fsfsjfls
+2019-08-17 11:01:16,249 - fox - DEBUG - fsfsjfls
+2019-08-17 11:01:16,249 - fox - INFO - info
+2019-08-17 11:01:48,166 - fox - DEBUG - fsfsjfls
+2019-08-17 11:01:48,166 - fox - INFO - info
+2019-08-17 11:01:48,166 - fox - WARNING - warning
+2019-08-17 11:02:08,160 - fox - DEBUG - fsfsjfls
+2019-08-17 11:02:08,160 - fox - INFO - info
+2019-08-17 11:02:08,160 - fox - WARNING - warning
+2019-08-17 11:02:08,160 - fox - ERROR - error
